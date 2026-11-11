@@ -1,0 +1,121 @@
+{
+  "final_discretization": "steadyState; second-order bounded linearUpwind velocity; upwind turbulence transport",
+  "pressure_linear_solve": "absolute tolerance 1e-8, relTol=0",
+  "model": "Blanlet_SimpleWater_20261023_v01",
+  "target_cells": 5000000,
+  "actual_cells": 4926596,
+  "converged": false,
+  "is_intermediate_preview": false,
+  "final_iteration": 1000.0,
+  "standard_mesh_check_passed": true,
+  "additional_geometry_check_passed": false,
+  "initial_residuals_at_last_iteration": {
+    "Ux": 0.014094447,
+    "Uy": 0.0073534077,
+    "Uz": 0.0030251986,
+    "p": 0.063437064,
+    "omega": 0.0032798854,
+    "k": 0.0063972556
+  },
+  "regions": [
+    {
+      "region": 0,
+      "inlet_mass_flow_kg_s": 0.0766666676713345,
+      "outlet_mass_flow_kg_s": 0.07666666737285412,
+      "mean_of_six_inlet_patch_mean_static_pressures_minus_outlet_Pa": 2869.4472609909694,
+      "last_100_final_phase_pressure_relative_range": 0.016069998401717276,
+      "final_phase_monitor_samples": 291
+    },
+    {
+      "region": 1,
+      "inlet_mass_flow_kg_s": 0.0766666676713345,
+      "outlet_mass_flow_kg_s": 0.07666666737285412,
+      "mean_of_six_inlet_patch_mean_static_pressures_minus_outlet_Pa": 2933.1961874205517,
+      "last_100_final_phase_pressure_relative_range": 0.028999164222636823,
+      "final_phase_monitor_samples": 291
+    },
+    {
+      "region": 2,
+      "inlet_mass_flow_kg_s": 0.0766666676713345,
+      "outlet_mass_flow_kg_s": 0.07666666737285412,
+      "mean_of_six_inlet_patch_mean_static_pressures_minus_outlet_Pa": 2435.385464394982,
+      "last_100_final_phase_pressure_relative_range": 0.024226370275141768,
+      "final_phase_monitor_samples": 291
+    }
+  ],
+  "total_inlet_mass_flow_kg_s": 0.2300000030140035,
+  "total_outlet_mass_flow_kg_s": 0.23000000211856236,
+  "total_relative_mass_imbalance": 3.893222287698063e-09,
+  "max_per_inlet_relative_error": 1.3104362975181808e-08,
+  "inlet_mass_flow_kg_s": {
+    "inletB01": 0.012777777945222417,
+    "inletB02": 0.012777777945222417,
+    "inletB03": 0.012777777945222417,
+    "inletB04": 0.012777777945222417,
+    "inletB05": 0.012777777945222417,
+    "inletB06": 0.012777777945222417,
+    "inletB07": 0.012777777945222417,
+    "inletB08": 0.012777777945222417,
+    "inletB09": 0.012777777945222417,
+    "inletB10": 0.012777777945222417,
+    "inletB11": 0.012777777945222417,
+    "inletB12": 0.012777777945222417,
+    "inletB13": 0.012777777945222417,
+    "inletB14": 0.012777777945222417,
+    "inletB15": 0.012777777945222417,
+    "inletB16": 0.012777777945222417,
+    "inletB17": 0.012777777945222417,
+    "inletB18": 0.012777777945222417
+  },
+  "whole_volume_cell_velocity_range_m_s": [
+    0.0014970434131100774,
+    4.221958637237549
+  ],
+  "whole_volume_cell_gauge_pressure_range_Pa": [
+    -4067.559814453125,
+    4440.013671875
+  ],
+  "property_source": "IAPWS-IF97; 290 C, 15.5 MPa",
+  "sampling_surface_radius_mm": 46.4,
+  "limitations": [
+    "one mesh: grid independence unverified",
+    "equal prescribed inlet flows, no upstream plenum",
+    "pseudo-time startup is not a physical-time simulation or time averaging",
+    "assumed 5% inlet turbulence and 0.21 mm mixing length",
+    "isothermal flow; no solid or coolant temperature field"
+  ],
+  "wall_y_plus_last_write": {
+    "iteration": 1000.0,
+    "minimum": 0.664556652,
+    "maximum": 180.482524,
+    "average": 25.2640886
+  },
+  "midchannel_surface_area_m2": 0.013235794380307198,
+  "midchannel_area_weighted_mean_speed_m_s": 0.9481598138809204,
+  "midchannel_area_fraction_below_1_m_s": 0.6827690005302429,
+  "midchannel_area_fraction_below_0_1_m_s": 0.002688644453883171,
+  "regional_midchannel_statistics": [
+    {
+      "region": 0,
+      "sample_area_m2": 0.0033089376520365477,
+      "area_weighted_mean_speed_m_s": 1.0025289058685303,
+      "area_fraction_below_1_m_s": 0.6185203194618225
+    },
+    {
+      "region": 1,
+      "sample_area_m2": 0.003308940678834915,
+      "area_weighted_mean_speed_m_s": 0.9964590072631836,
+      "area_fraction_below_1_m_s": 0.6319646239280701
+    },
+    {
+      "region": 2,
+      "sample_area_m2": 0.006617915816605091,
+      "area_weighted_mean_speed_m_s": 0.8968265056610107,
+      "area_fraction_below_1_m_s": 0.7402952313423157
+    }
+  ],
+  "surface_region_identification": "CAD region 0: x>23.2 mm; 1: x<-23.2 mm; 2: central. Thresholds lie in 22.7-23.7 mm metal gaps, not inside the water.",
+  "surface_statistics_method": "Full-resolution r=46.4 mm upper-hemisphere cut; area-weighted triangle-mean interpolated speed, before display decimation; excludes interior pipe cylinders",
+  "pipe_sampling_radius_mm": 0.75,
+  "pipe_probe_valid_fraction": 1.0
+}
