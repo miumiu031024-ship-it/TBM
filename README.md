@@ -4,7 +4,7 @@
 
 新しい `Blanlet_SimpleWater_20261023_v01.step` の水領域を用いたOpenFOAM v2412の実計算です。速度分布、速度ベクトル、静圧分布を表示できます。
 
-- [結果ZIPをダウンロード](https://github.com/miumiu031024-ship-it/-/raw/refs/heads/main/TBM-v01-290C-CFD.zip)
+- [結果ZIPをダウンロード](https://github.com/miumiu031024-ship-it/TBM/raw/refs/heads/main/TBM-v01-290C-CFD.zip)
 - [日本語の解析記録](tbm-v01-results/analysis-report-ja.md)
 - [圧力分布図](tbm-v01-results/pressure-distribution.png) / [収束履歴](tbm-v01-results/convergence.png) / [詳細数値](tbm-v01-results/summary.json)
 
