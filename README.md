@@ -1,4 +1,16 @@
-# TBM SimpleWater v01 — OpenFOAMの水流解析
+# TBM：小変更CAD案と水流解析
+
+**2026-11-20：基本構造を維持した基準＋改良5案のSTEPを追加しました。**
+
+- [CAD一式ZIPをダウンロード](https://github.com/miumiu031024-ship-it/TBM/raw/refs/heads/main/TBM-minimal-CAD-variants-20261120.zip)
+- [変更内容・STEP一覧・検証記録](cad-proposals-20261120/README.md)
+- [最初の比較候補：隔壁付け根R0.25 mmの水領域STEP](cad-proposals-20261120/water/A01_root_R025_water.step)
+
+球面の包絡寸法、36本の管位置・内径3 mm、3水領域の分離と最小隔壁相当幅1 mmを維持。STEPの再読込を確認済みです。低速域を減らすための比較用CADで、新たなCFDによる改善確認は行っていません。水領域と隔壁部分の参考形状を含み、TBM金属全体の製作図ではありません。
+
+![小変更CAD案の比較](cad-proposals-20261120/CAD-overview.png)
+
+## TBM SimpleWater v01 — OpenFOAMの水流解析
 
 **1,000反復で残差基準に未到達。未収束の参考結果です。**
 

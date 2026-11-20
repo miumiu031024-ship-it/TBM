@@ -1,0 +1,7 @@
+id,label,change,purpose,changed_water_volume_percent,minimum_water_region_gap_mm,pipe_to_separator_clearance_mm,water_STEP
+B00_baseline,基準,元模型を接合し、3水領域として保存,比較の基準,0.0,0.9999999999999929,1.4167091783165133,water/B00_baseline_water.step
+A01_root_R025,A1・最初の候補,隔壁と球面壁の付け根にR0.25 mm,角部形状に対する局所低速域の感度,0.055048706368233974,0.9999999999983977,1.297076433639785,water/A01_root_R025_water.step
+A02_root_R050,A2,同じ場所のRを0.50 mmへ,丸め量の感度,0.22061451039854485,0.9999999999988844,1.180536164626502,water/A02_root_R050_water.step
+B01_partition_inward_050,B1,隔壁2枚を中央へ各0.50 mm移動,中央／側部の流路幅・分配の感度,2.0693512717071862,0.999999999999968,1.0904903325472084,water/B01_partition_inward_050_water.step
+C01_partition_yaw_plus1,C1,右隔壁+1°、左隔壁-1°をZ軸回りに回転,出口側で中央がわずかに狭くなる案,1.8483145785270816,0.9999999999998532,0.7500851241090613,water/C01_partition_yaw_plus1_water.step
+C02_partition_yaw_minus1,C2,右隔壁-1°、左隔壁+1°をZ軸回りに回転,C1と逆方向の案,1.8484151742964003,0.9999999999997892,0.7500851241090721,water/C02_partition_yaw_minus1_water.step
