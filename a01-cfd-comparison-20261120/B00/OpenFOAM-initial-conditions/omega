@@ -1,0 +1,6 @@
+FoamFile {version 2.0; format ascii; class volScalarField; object omega;}
+dimensions [0 0 -1 0 0 0 0]; internalField uniform 1500; boundaryField {
+"inlet.*" {type turbulentMixingLengthFrequencyInlet; mixingLength .00021; value uniform 1500;}
+"outlet.*" {type inletOutlet; inletValue uniform 1500; value uniform 1500;}
+walls {type omegaWallFunction; blending binomial; value uniform 1500;}
+}

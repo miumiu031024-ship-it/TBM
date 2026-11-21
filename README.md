@@ -1,5 +1,10 @@
 # TBM：小変更CAD案と水流解析
 
+**A01（隔壁付け根R0.25 mm）と基準模型を、新たなCFDで比較しました。** 収束・安定性などに未達項目があり、低速域の改善は確定できていません。
+
+- [CFD比較レポート・速度分布・数値](a01-cfd-comparison-20261120/README.md)
+- [CFD比較データZIPをダウンロード](https://github.com/miumiu031024-ship-it/TBM/raw/refs/heads/main/TBM-A01-CFD-comparison-20261120.zip)
+
 **2026-11-20：基本構造を維持した基準＋改良5案のSTEPを追加しました。**
 
 - [CAD一式ZIPをダウンロード](https://github.com/miumiu031024-ship-it/TBM/raw/refs/heads/main/TBM-minimal-CAD-variants-20261120.zip)

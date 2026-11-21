@@ -1,0 +1,13 @@
+{
+  "Python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": {
+    "cadquery": "2.7.0",
+    "numpy": "2.3.5",
+    "vtk": "9.3.1",
+    "matplotlib": "3.10.8"
+  },
+  "OpenFOAM": "v2412",
+  "Docker_image_digest": "opencfd/openfoam-default@sha256:1ba02114b1c025c370f2e269a07677c16c9bea8d990fcd75ac8378aff9d41b50",
+  "MPI_processes": 4
+}

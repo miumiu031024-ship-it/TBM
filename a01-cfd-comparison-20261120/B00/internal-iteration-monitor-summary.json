@@ -1,0 +1,44 @@
+{
+  "original_equal_area_sample_count": 8192,
+  "actual_clipped_point_count": 8013,
+  "radius_mm": 46.4,
+  "divider_margin_mm": 0.01,
+  "first_recorded_iteration": 100.0,
+  "last_recorded_iteration": 500.0,
+  "frames": 21,
+  "recent_100_iteration_variation": [
+    {
+      "region": "All",
+      "frames": 6,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "low_fraction_0p5_range_percentage_points": 0.9234993136153752,
+      "maximum_successive_vector_relative_L2_change": 0.21145420653555838
+    },
+    {
+      "region": "Water_Xminus",
+      "frames": 6,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "low_fraction_0p5_range_percentage_points": 0.9471585244267194,
+      "maximum_successive_vector_relative_L2_change": 0.24168407266580455
+    },
+    {
+      "region": "Water_Center",
+      "frames": 6,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "low_fraction_0p5_range_percentage_points": 0.998502246630055,
+      "maximum_successive_vector_relative_L2_change": 0.16690407668848778
+    },
+    {
+      "region": "Water_Xplus",
+      "frames": 6,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "low_fraction_0p5_range_percentage_points": 1.2993503248375817,
+      "maximum_successive_vector_relative_L2_change": 0.2418287866591069
+    }
+  ],
+  "interpretation": "Steady numerical iteration variation; NOT physical time fluctuations or time-averaged performance. Separate monitor sampling from the 100000-point final VTK comparison."
+}

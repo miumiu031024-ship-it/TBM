@@ -1,0 +1,337 @@
+{
+  "name": "A01",
+  "actual_cells": 4893512,
+  "final_iteration": 500.0,
+  "solver_ended_normally": true,
+  "SIMPLE_residual_goals_met": false,
+  "final_initial_residuals": {
+    "iteration": 500.0,
+    "Ux": 0.012464045,
+    "Uy": 0.0050362852,
+    "Uz": 0.0022214166,
+    "p": 0.069716574,
+    "k": 0.0053700543,
+    "omega": 0.0010554471
+  },
+  "standard_mesh_check_passed": true,
+  "additional_mesh_check_passed": false,
+  "final_inlet_mean_static_Pa": 2998.369446470419,
+  "recent_pressure_range_Pa": 121.98425017944146,
+  "final_net_mass_imbalance_kg_s": -4.0086437691683185e-05,
+  "total_reverse_outlet_kg_s": 0.0,
+  "native_cell_velocity_iteration_changes": [
+    {
+      "from_iteration": 300.0,
+      "to_iteration": 500.0,
+      "unweighted_cell_vector_relative_L2": 0.41840579997587757
+    },
+    {
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "unweighted_cell_vector_relative_L2": 0.42104451592932335
+    }
+  ],
+  "midchannel_surfaces": [
+    {
+      "radius_mm": 45.2,
+      "valid_count": 97770,
+      "invalid_count": 2230,
+      "area_mm2": 12550.538294287624,
+      "statistics": [
+        {
+          "threshold_m_s": 0.1,
+          "low_area_mm2": 40.69265254463718,
+          "low_fraction_of_valid_fluid": 0.003242303365040401
+        },
+        {
+          "threshold_m_s": 0.5,
+          "low_area_mm2": 1527.8358062658413,
+          "low_fraction_of_valid_fluid": 0.12173468344072824
+        },
+        {
+          "threshold_m_s": 1.0,
+          "low_area_mm2": 11695.864222861144,
+          "low_fraction_of_valid_fluid": 0.9319014012478265
+        }
+      ]
+    },
+    {
+      "radius_mm": 46.4,
+      "valid_count": 97857,
+      "invalid_count": 2143,
+      "area_mm2": 13237.553457472763,
+      "statistics": [
+        {
+          "threshold_m_s": 0.1,
+          "low_area_mm2": 35.71245912681576,
+          "low_fraction_of_valid_fluid": 0.0026978141573929305
+        },
+        {
+          "threshold_m_s": 0.5,
+          "low_area_mm2": 641.3362451523996,
+          "low_fraction_of_valid_fluid": 0.048448245909848045
+        },
+        {
+          "threshold_m_s": 1.0,
+          "low_area_mm2": 11256.729446131993,
+          "low_fraction_of_valid_fluid": 0.8503632852018762
+        }
+      ]
+    },
+    {
+      "radius_mm": 47.6,
+      "valid_count": 97882,
+      "invalid_count": 2118,
+      "area_mm2": 13934.667438632234,
+      "statistics": [
+        {
+          "threshold_m_s": 0.1,
+          "low_area_mm2": 37.29881764697948,
+          "low_fraction_of_valid_fluid": 0.002676692343842586
+        },
+        {
+          "threshold_m_s": 0.5,
+          "low_area_mm2": 854.4561202945451,
+          "low_fraction_of_valid_fluid": 0.061318730716577105
+        },
+        {
+          "threshold_m_s": 1.0,
+          "low_area_mm2": 11810.91262314506,
+          "low_fraction_of_valid_fluid": 0.8475919985288408
+        }
+      ]
+    }
+  ],
+  "regional_outlet_distribution": [
+    {
+      "region": "Water_Xminus",
+      "total_outlet_kg_s": 0.07667985491360858,
+      "minimum_outlet_kg_s": 0.011619005853963586,
+      "maximum_outlet_kg_s": 0.013140521982723988,
+      "spread_over_mean": 0.1190546954326885,
+      "CV": 0.0413804569222584,
+      "inlet_area_mean_static_Pa": 3141.1895638242413
+    },
+    {
+      "region": "Water_Center",
+      "total_outlet_kg_s": 0.07667210977959418,
+      "minimum_outlet_kg_s": 0.012709938937032263,
+      "maximum_outlet_kg_s": 0.01285065707150553,
+      "spread_over_mean": 0.01101194175126653,
+      "CV": 0.003605231908996941,
+      "inlet_area_mean_static_Pa": 2729.054464157349
+    },
+    {
+      "region": "Water_Xplus",
+      "total_outlet_kg_s": 0.07668812474747197,
+      "minimum_outlet_kg_s": 0.011662041307485296,
+      "maximum_outlet_kg_s": 0.013133971050331792,
+      "spread_over_mean": 0.11516226907569692,
+      "CV": 0.03994385935592033,
+      "inlet_area_mean_static_Pa": 3124.9008585730094
+    }
+  ],
+  "max_cell_speed_m_s": 3.95342755317688,
+  "CFD_model": "Isothermal incompressible steady RANS k-omega SST",
+  "limitations": [
+    "No grid independence test or designed prism layers",
+    "Steady iteration variation is not physical time variation",
+    "Final snapshots cannot establish improvement if residuals/fields remain unsettled"
+  ],
+  "internal_surface_iteration_stability": [
+    {
+      "radius_mm": 45.2,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "common_points": 97770,
+      "relative_vector_L2_change": 0.4994203448295593,
+      "thresholds": [
+        {
+          "threshold_m_s": 0.1,
+          "final_fraction": 0.003242303365040401,
+          "previous_fraction": 0.0033957246599161297,
+          "fraction_change_percentage_points": -0.01534212948757288,
+          "low_mask_intersection_over_union": 0.31376518218623484,
+          "changed_mask_fraction": 0.0034673212641914697
+        },
+        {
+          "threshold_m_s": 0.5,
+          "final_fraction": 0.12173468344072824,
+          "previous_fraction": 0.10193310831543419,
+          "fraction_change_percentage_points": 1.9801575125294055,
+          "low_mask_intersection_over_union": 0.4182502107789091,
+          "changed_mask_fraction": 0.0917459343356858
+        },
+        {
+          "threshold_m_s": 1.0,
+          "final_fraction": 0.9319014012478265,
+          "previous_fraction": 0.9345402475196891,
+          "fraction_change_percentage_points": -0.2638846271862616,
+          "low_mask_intersection_over_union": 0.9503858404052927,
+          "changed_mask_fraction": 0.047478776720875526
+        }
+      ]
+    },
+    {
+      "radius_mm": 46.4,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "common_points": 97857,
+      "relative_vector_L2_change": 0.4697715938091278,
+      "thresholds": [
+        {
+          "threshold_m_s": 0.1,
+          "final_fraction": 0.0026978141573929305,
+          "previous_fraction": 0.0025240912760456586,
+          "fraction_change_percentage_points": 0.017372288134727194,
+          "low_mask_intersection_over_union": 0.6018808777429467,
+          "changed_mask_fraction": 0.0012978121135943264
+        },
+        {
+          "threshold_m_s": 0.5,
+          "final_fraction": 0.048448245909848045,
+          "previous_fraction": 0.03863801261023739,
+          "fraction_change_percentage_points": 0.9810233299610658,
+          "low_mask_intersection_over_union": 0.42270450751252087,
+          "changed_mask_fraction": 0.03533727786463922
+        },
+        {
+          "threshold_m_s": 1.0,
+          "final_fraction": 0.8503632852018762,
+          "previous_fraction": 0.8708421472148135,
+          "fraction_change_percentage_points": -2.047886201293725,
+          "low_mask_intersection_over_union": 0.9095732619835835,
+          "changed_mask_fraction": 0.08150668833093187
+        }
+      ]
+    },
+    {
+      "radius_mm": 47.6,
+      "from_iteration": 400.0,
+      "to_iteration": 500.0,
+      "common_points": 97882,
+      "relative_vector_L2_change": 0.5452830791473389,
+      "thresholds": [
+        {
+          "threshold_m_s": 0.1,
+          "final_fraction": 0.002676692343842586,
+          "previous_fraction": 0.0019513291514272287,
+          "fraction_change_percentage_points": 0.07253631924153572,
+          "low_mask_intersection_over_union": 0.411214953271028,
+          "changed_mask_fraction": 0.0019308963854436974
+        },
+        {
+          "threshold_m_s": 0.5,
+          "final_fraction": 0.061318730716577105,
+          "previous_fraction": 0.06366849880468319,
+          "fraction_change_percentage_points": -0.234976808810608,
+          "low_mask_intersection_over_union": 0.3245993936769164,
+          "changed_mask_fraction": 0.06372979710263378
+        },
+        {
+          "threshold_m_s": 1.0,
+          "final_fraction": 0.8475919985288408,
+          "previous_fraction": 0.8642753519543941,
+          "fraction_change_percentage_points": -1.6683353425553271,
+          "low_mask_intersection_over_union": 0.8886496844003607,
+          "changed_mask_fraction": 0.10092764757565231
+        }
+      ]
+    }
+  ],
+  "internal_iteration_monitor": {
+    "original_equal_area_sample_count": 8192,
+    "actual_clipped_point_count": 8013,
+    "radius_mm": 46.4,
+    "divider_margin_mm": 0.01,
+    "first_recorded_iteration": 20.0,
+    "last_recorded_iteration": 500.0,
+    "frames": 25,
+    "recent_100_iteration_variation": [
+      {
+        "region": "All",
+        "frames": 6,
+        "from_iteration": 400.0,
+        "to_iteration": 500.0,
+        "low_fraction_0p5_range_percentage_points": 0.9983776363409462,
+        "maximum_successive_vector_relative_L2_change": 0.21073335500488
+      },
+      {
+        "region": "Water_Xminus",
+        "frames": 6,
+        "from_iteration": 400.0,
+        "to_iteration": 500.0,
+        "low_fraction_0p5_range_percentage_points": 0.9970089730807583,
+        "maximum_successive_vector_relative_L2_change": 0.24299672048684462
+      },
+      {
+        "region": "Water_Center",
+        "frames": 6,
+        "from_iteration": 400.0,
+        "to_iteration": 500.0,
+        "low_fraction_0p5_range_percentage_points": 1.0983524712930606,
+        "maximum_successive_vector_relative_L2_change": 0.16526301926877965
+      },
+      {
+        "region": "Water_Xplus",
+        "frames": 6,
+        "from_iteration": 400.0,
+        "to_iteration": 500.0,
+        "low_fraction_0p5_range_percentage_points": 1.3493253373313343,
+        "maximum_successive_vector_relative_L2_change": 0.24170741171634022
+      }
+    ],
+    "interpretation": "Steady numerical iteration variation; NOT physical time fluctuations or time-averaged performance. Separate monitor sampling from the 100000-point final VTK comparison."
+  },
+  "last_recorded_monitor_iteration": 500.0,
+  "native_port_area_m2": {
+    "inlet01": 7.02702356e-06,
+    "inlet02": 7.02622921e-06,
+    "inlet03": 7.02683159e-06,
+    "inlet04": 7.02383055e-06,
+    "inlet05": 7.02675085e-06,
+    "inlet06": 7.02396489e-06,
+    "inlet07": 7.02607892e-06,
+    "inlet08": 7.02660494e-06,
+    "inlet09": 7.0277447e-06,
+    "inlet10": 7.02702356e-06,
+    "inlet11": 7.02622921e-06,
+    "inlet12": 7.02683159e-06,
+    "inlet13": 7.02383055e-06,
+    "inlet14": 7.02675085e-06,
+    "inlet15": 7.02396489e-06,
+    "inlet16": 7.02607892e-06,
+    "inlet17": 7.02660494e-06,
+    "inlet18": 7.0277447e-06,
+    "outlet01": 7.0277447e-06,
+    "outlet02": 7.02660494e-06,
+    "outlet03": 7.02607892e-06,
+    "outlet04": 7.02396489e-06,
+    "outlet05": 7.02675085e-06,
+    "outlet06": 7.02383055e-06,
+    "outlet07": 7.02683159e-06,
+    "outlet08": 7.02622921e-06,
+    "outlet09": 7.02702356e-06,
+    "outlet10": 7.0277447e-06,
+    "outlet11": 7.02660494e-06,
+    "outlet12": 7.02607892e-06,
+    "outlet13": 7.02396489e-06,
+    "outlet14": 7.02675085e-06,
+    "outlet15": 7.02383055e-06,
+    "outlet16": 7.02683159e-06,
+    "outlet17": 7.02622921e-06,
+    "outlet18": 7.02702356e-06
+  },
+  "sum_abs_outlet_phi_vs_U_flux_difference_kg_s": 0.000800583429098705,
+  "final_wall_yPlus": {
+    "minimum": 0.27623966,
+    "maximum": 204.68989,
+    "average": 19.933047
+  },
+  "native_mesh_volume_m3": 4.2225297e-05,
+  "mesh_diagnostics": {
+    "concave_cell_count": 65893,
+    "maximum_skewness": 3.0212908,
+    "maximum_nonorthogonality_degrees": 62.682735
+  }
+}
