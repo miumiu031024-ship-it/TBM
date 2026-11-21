@@ -1,0 +1,49 @@
+{
+  "actual_cells": 1264925,
+  "regions_overlap": true,
+  "regions": [
+    {
+      "region": "All",
+      "cells": 1264925,
+      "concave_cells": 14561,
+      "concave_fraction": 0.01151135442812815
+    },
+    {
+      "region": "Straight_pipes_z_negative",
+      "cells": 76680,
+      "concave_cells": 0,
+      "concave_fraction": 0.0
+    },
+    {
+      "region": "Shell_near_pipe_junction_0_to_3mm",
+      "cells": 91355,
+      "concave_cells": 639,
+      "concave_fraction": 0.0069946910404466095
+    },
+    {
+      "region": "Near_divider_within_0p6mm",
+      "cells": 293341,
+      "concave_cells": 11712,
+      "concave_fraction": 0.0399262292008277
+    },
+    {
+      "region": "Shell_inner_0p3mm",
+      "cells": 215942,
+      "concave_cells": 4857,
+      "concave_fraction": 0.02249215067008734
+    },
+    {
+      "region": "Shell_outer_0p3mm",
+      "cells": 209680,
+      "concave_cells": 3439,
+      "concave_fraction": 0.01640118275467379
+    },
+    {
+      "region": "Shell_mid_gap_45p2_to_47p6mm",
+      "cells": 762623,
+      "concave_cells": 6265,
+      "concave_fraction": 0.008215068257841686
+    }
+  ],
+  "interpretation": "Location audit only; correlation or concavity alone does not identify instability cause"
+}

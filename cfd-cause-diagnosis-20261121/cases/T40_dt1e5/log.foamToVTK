@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -latestTime -fields (U p)
+Date   : Nov 21 2026
+Time   : 01:45:51
+Host   : 66142483854e
+PID    : 3966
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-cause-20261121/T40_dt1e5
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Including fields (U p)
+
+Create time
+
+Initial memory 121836 kB
+Create mesh for time = 0.002
+
+VTK mesh topology: 0.23 s, 377296 kB
+Time: 0.002
+    volScalar    : p
+    volVector    : U
+    Internal  : "VTK/T40_dt1e5_200/internal.vtu"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/walls.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet01.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet02.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet03.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet04.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet05.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet06.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet07.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet08.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet09.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet10.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet11.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet12.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet13.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet14.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet15.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet16.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet17.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/inlet18.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet01.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet02.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet03.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet04.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet05.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet06.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet07.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet08.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet09.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet10.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet11.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet12.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet13.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet14.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet15.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet16.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet17.vtp"
+    Boundary  : "VTK/T40_dt1e5_200/boundary/outlet18.vtp"
+Wrote in 5.68 s, 1194384 kB
+
+End: 5.91 s, 1227452 kB (peak)
+

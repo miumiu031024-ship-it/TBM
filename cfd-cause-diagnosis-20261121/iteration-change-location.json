@@ -1,0 +1,52 @@
+{
+  "source": "/workspace/scratch/tbm-A01-cfd-20261120/results/B00/internal-iteration-monitor.npz",
+  "source_sha256": "b7bd109eda2fd1646056cae3c6b5e5a4843024763701e32628cc38b3cbcc4c2d",
+  "from_iteration": 400,
+  "to_iteration": 500,
+  "regions_overlap": true,
+  "regions": [
+    {
+      "region": "All",
+      "points": 8013,
+      "mean_vector_change_m_s": 0.2192017434589154,
+      "vector_relative_L2_change": 0.48976728138120995,
+      "fraction_points_changing_over_0p2_m_s": 0.23212280044926994
+    },
+    {
+      "region": "Within_1mm_of_divider_face",
+      "points": 350,
+      "mean_vector_change_m_s": 0.15000549292238613,
+      "vector_relative_L2_change": 0.40911935368587854,
+      "fraction_points_changing_over_0p2_m_s": 0.2
+    },
+    {
+      "region": "Away_from_divider_faces_1mm",
+      "points": 7663,
+      "mean_vector_change_m_s": 0.22236221425204933,
+      "vector_relative_L2_change": 0.4917942569608772,
+      "fraction_points_changing_over_0p2_m_s": 0.23358997781547697
+    },
+    {
+      "region": "Lower_shell_z_under_5mm",
+      "points": 869,
+      "mean_vector_change_m_s": 0.23960738816322694,
+      "vector_relative_L2_change": 0.28869064615614537,
+      "fraction_points_changing_over_0p2_m_s": 0.38204833141542005
+    },
+    {
+      "region": "Mid_shell_z_5_to_20mm",
+      "points": 2604,
+      "mean_vector_change_m_s": 0.4888015203924525,
+      "vector_relative_L2_change": 0.7061988729191971,
+      "fraction_points_changing_over_0p2_m_s": 0.5072964669738863
+    },
+    {
+      "region": "Upper_shell_z_over_20mm",
+      "points": 4540,
+      "mean_vector_change_m_s": 0.06066202443182792,
+      "vector_relative_L2_change": 0.1409512411986615,
+      "fraction_points_changing_over_0p2_m_s": 0.04559471365638767
+    }
+  ],
+  "interpretation": "Steady numerical iteration difference; neither physical frequency nor causal attribution"
+}

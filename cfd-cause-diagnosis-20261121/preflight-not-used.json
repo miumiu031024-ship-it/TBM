@@ -1,0 +1,7 @@
+{
+  "case": "T10_dt1e4",
+  "delta_t_s": 0.0001,
+  "intentionally_stopped": true,
+  "reason": "Maximum Courant number approximately 5 in startup; refined time steps for the final pilot pair. Not a solver blow-up or a final study result.",
+  "included_in_comparison": false
+}

@@ -1,0 +1,12 @@
+{
+  "parent_seed": "Baseline left-domain steady iteration 500 (unsettled initial field)",
+  "cells": 1264925,
+  "delta_t_s": 2e-05,
+  "planned_end_s": 0.002,
+  "time_discretization": "backward",
+  "outer_correctors": 2,
+  "pressure_correctors": 1,
+  "nonorthogonal_correctors": 1,
+  "physical_sample_interval_s": 0.0001,
+  "purpose": "Short URANS pilot and time-step sensitivity; not enough for statistically converged performance or physical periodicity"
+}

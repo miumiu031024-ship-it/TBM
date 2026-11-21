@@ -1,0 +1,1 @@
+Original baseline boundary-condition reference at initial zero field. Actual tests restart from baseline iteration 500, whose full volume fields are excluded from the download. Zero-face inactive inlet entries are changed to zeroGradient after subsetting; all six active inlet mass flow rates are unchanged.

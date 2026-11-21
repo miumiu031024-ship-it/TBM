@@ -1,0 +1,460 @@
+{
+  "parent": {
+    "name": "B00",
+    "source_STEP": "B00_baseline_water.step",
+    "source_sha256": "3a2441db330b9844da737732f17a30f84786b96a2d9e901f5270de7dd00a50fc",
+    "CAD_volume_mm3": 42266.503783747175,
+    "rho_kg_m3": 746.200955901462,
+    "nu_m2_s": 1.239443712658549e-07,
+    "mu_Pa_s": 9.248740831718662e-05,
+    "temperature_C": 290,
+    "absolute_pressure_MPa": 15.5,
+    "mass_flow_kg_s": 0.23,
+    "ports": [
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -46.22343399145,
+        "y_mm": -4.044026463491,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577037,
+        "radius_mm": 1.5,
+        "port": "IN_01",
+        "patch": "inlet01"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -44.81895833981,
+        "y_mm": -12.00920369275,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "IN_02",
+        "patch": "inlet02"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -42.0526813185,
+        "y_mm": -19.60948734476,
+        "z_mm": -10.0,
+        "area_mm2": 7.0685834705770105,
+        "radius_mm": 1.5,
+        "port": "IN_03",
+        "patch": "inlet03"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -38.008654855,
+        "y_mm": -26.61394664668,
+        "z_mm": -9.999999999999998,
+        "area_mm2": 7.0685834705770425,
+        "radius_mm": 1.5,
+        "port": "IN_04",
+        "patch": "inlet04"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -32.80975464705,
+        "y_mm": -32.80975464705,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470576998,
+        "radius_mm": 1.5,
+        "port": "IN_05",
+        "patch": "inlet05"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "IN",
+        "x_mm": -26.613946646679995,
+        "y_mm": -38.008654855,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577019,
+        "radius_mm": 1.5,
+        "port": "IN_06",
+        "patch": "inlet06"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": -19.609487344759998,
+        "y_mm": -42.0526813185,
+        "z_mm": -9.999999999999998,
+        "area_mm2": 7.0685834705770425,
+        "radius_mm": 1.5,
+        "port": "IN_07",
+        "patch": "inlet07"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": -12.00920369275,
+        "y_mm": -44.81895833981,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "IN_08",
+        "patch": "inlet08"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": -4.044026463491,
+        "y_mm": -46.22343399145,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "IN_09",
+        "patch": "inlet09"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": 4.044026463491,
+        "y_mm": -46.22343399145,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577037,
+        "radius_mm": 1.5,
+        "port": "IN_10",
+        "patch": "inlet10"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": 12.009203692757,
+        "y_mm": -44.81895833981,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "IN_11",
+        "patch": "inlet11"
+      },
+      {
+        "region": "Water_Center",
+        "side": "IN",
+        "x_mm": 19.609487344768002,
+        "y_mm": -42.05268131850001,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "IN_12",
+        "patch": "inlet12"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 26.613946646689,
+        "y_mm": -38.008654855,
+        "z_mm": -9.999999999999998,
+        "area_mm2": 7.0685834705770425,
+        "radius_mm": 1.5,
+        "port": "IN_13",
+        "patch": "inlet13"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 32.809754647056,
+        "y_mm": -32.80975464705,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470576998,
+        "radius_mm": 1.5,
+        "port": "IN_14",
+        "patch": "inlet14"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 38.008654855009,
+        "y_mm": -26.613946646679995,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577019,
+        "radius_mm": 1.5,
+        "port": "IN_15",
+        "patch": "inlet15"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 42.0526813185,
+        "y_mm": -19.60948734476,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577042,
+        "radius_mm": 1.5,
+        "port": "IN_16",
+        "patch": "inlet16"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 44.818958339813,
+        "y_mm": -12.00920369275,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "IN_17",
+        "patch": "inlet17"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "IN",
+        "x_mm": 46.223433991457,
+        "y_mm": -4.044026463491,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "IN_18",
+        "patch": "inlet18"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -46.22343399145,
+        "y_mm": 4.044026463491,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "OUT_01",
+        "patch": "outlet01"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -44.81895833981,
+        "y_mm": 12.009203692756998,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "OUT_02",
+        "patch": "outlet02"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -42.0526813185,
+        "y_mm": 19.609487344768,
+        "z_mm": -9.999999999999998,
+        "area_mm2": 7.0685834705770425,
+        "radius_mm": 1.5,
+        "port": "OUT_03",
+        "patch": "outlet03"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -38.008654855,
+        "y_mm": 26.613946646688998,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577019,
+        "radius_mm": 1.5,
+        "port": "OUT_04",
+        "patch": "outlet04"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -32.80975464705,
+        "y_mm": 32.809754647056,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470576998,
+        "radius_mm": 1.5,
+        "port": "OUT_05",
+        "patch": "outlet05"
+      },
+      {
+        "region": "Water_Xminus",
+        "side": "OUT",
+        "x_mm": -26.61394664668,
+        "y_mm": 38.008654855009,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577042,
+        "radius_mm": 1.5,
+        "port": "OUT_06",
+        "patch": "outlet06"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": -19.60948734476,
+        "y_mm": 42.052681318501,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577013,
+        "radius_mm": 1.5,
+        "port": "OUT_07",
+        "patch": "outlet07"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": -12.00920369275,
+        "y_mm": 44.818958339813,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "OUT_08",
+        "patch": "outlet08"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": -4.044026463491,
+        "y_mm": 46.223433991457,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577037,
+        "radius_mm": 1.5,
+        "port": "OUT_09",
+        "patch": "outlet09"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": 4.044026463491,
+        "y_mm": 46.223433991457,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "OUT_10",
+        "patch": "outlet10"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": 12.009203692756998,
+        "y_mm": 44.818958339813,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "OUT_11",
+        "patch": "outlet11"
+      },
+      {
+        "region": "Water_Center",
+        "side": "OUT",
+        "x_mm": 19.609487344768,
+        "y_mm": 42.052681318501,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577042,
+        "radius_mm": 1.5,
+        "port": "OUT_12",
+        "patch": "outlet12"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 26.613946646688998,
+        "y_mm": 38.008654855009,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577019,
+        "radius_mm": 1.5,
+        "port": "OUT_13",
+        "patch": "outlet13"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 32.809754647056,
+        "y_mm": 32.809754647056,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470576998,
+        "radius_mm": 1.5,
+        "port": "OUT_14",
+        "patch": "outlet14"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 38.008654855009,
+        "y_mm": 26.613946646689,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577042,
+        "radius_mm": 1.5,
+        "port": "OUT_15",
+        "patch": "outlet15"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 42.052681318501,
+        "y_mm": 19.609487344768002,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577012,
+        "radius_mm": 1.5,
+        "port": "OUT_16",
+        "patch": "outlet16"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 44.818958339813,
+        "y_mm": 12.009203692757,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577056,
+        "radius_mm": 1.5,
+        "port": "OUT_17",
+        "patch": "outlet17"
+      },
+      {
+        "region": "Water_Xplus",
+        "side": "OUT",
+        "x_mm": 46.223433991457,
+        "y_mm": 4.044026463491,
+        "z_mm": -10.0,
+        "area_mm2": 7.068583470577037,
+        "radius_mm": 1.5,
+        "port": "OUT_18",
+        "patch": "outlet18"
+      }
+    ],
+    "seeds_m": [
+      [
+        -0.04622343399145,
+        -0.004044026463491,
+        -0.008
+      ],
+      [
+        -0.019609487344759997,
+        -0.0420526813185,
+        -0.008
+      ],
+      [
+        0.026613946646689,
+        -0.038008654855000004,
+        -0.008
+      ]
+    ],
+    "base_target_cells": 5000000,
+    "STL_linear_tolerance_mm": 0.001,
+    "STL_relative_tolerance": false,
+    "nominal_root_cell_mm": 0.0558,
+    "nominal_bulk_cell_mm": 0.2232,
+    "explicit_prism_layers": false,
+    "triangles": 485552,
+    "internal_iteration_monitor": {
+      "radius_mm": 46.4,
+      "original_equal_area_count": 8192,
+      "actual_fluid_point_count": 8013,
+      "divider_margin_mm": 0.01,
+      "write_every_iterations": 20
+    },
+    "model_assumptions": {
+      "isothermal_constant_properties": true,
+      "gravity_included": false,
+      "smooth_walls": true
+    },
+    "selected_region": "Water_Xminus",
+    "parent_final_iteration": 500,
+    "original_source_case": "/workspace/scratch/tbm-A01-cfd-20261120/B00"
+  },
+  "changes": {
+    "p_relaxation": 1
+  },
+  "original_region_cell_count": 1264925,
+  "new_internal_boundary_faces": 0,
+  "initial_iteration": 500,
+  "end_iteration": 600,
+  "monitor_points": 1359,
+  "purpose": "One-factor numerical sensitivity, not physical time"
+}

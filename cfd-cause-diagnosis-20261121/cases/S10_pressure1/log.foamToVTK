@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -time 600 -fields (U p)
+Date   : Nov 21 2026
+Time   : 01:10:51
+Host   : 66142483854e
+PID    : 2999
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-cause-20261121/S10_pressure1
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Including fields (U p)
+
+Create time
+
+Initial memory 121836 kB
+Create mesh for time = 600
+
+VTK mesh topology: 0.2 s, 377296 kB
+Time: 600
+    volScalar    : p
+    volVector    : U
+    Internal  : "VTK/S10_pressure1_100/internal.vtu"
+    Boundary  : "VTK/S10_pressure1_100/boundary/walls.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet01.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet02.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet03.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet04.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet05.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet06.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet07.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet08.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet09.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet10.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet11.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet12.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet13.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet14.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet15.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet16.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet17.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/inlet18.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet01.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet02.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet03.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet04.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet05.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet06.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet07.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet08.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet09.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet10.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet11.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet12.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet13.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet14.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet15.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet16.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet17.vtp"
+    Boundary  : "VTK/S10_pressure1_100/boundary/outlet18.vtp"
+Wrote in 5.94 s, 1194380 kB
+
+End: 6.14 s, 1227448 kB (peak)
+
