@@ -1,0 +1,75 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK -latestTime -fields (U p)
+Date   : Nov 21 2026
+Time   : 08:32:29
+Host   : 233e724de3c6
+PID    : 3817
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-steady-ramp-20261121/F02_second_order_restore
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Including fields (U p)
+
+Create time
+
+Initial memory 121840 kB
+Create mesh for time = 2600
+
+VTK mesh topology: 0.29 s, 377304 kB
+Time: 2600
+    volScalar    : p
+    volVector    : U
+    Internal  : "VTK/F02_second_order_restore_2000/internal.vtu"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/walls.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet01.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet02.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet03.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet04.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet05.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet06.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet07.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet08.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet09.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet10.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet11.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet12.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet13.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet14.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet15.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet16.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet17.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/inlet18.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet01.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet02.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet03.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet04.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet05.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet06.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet07.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet08.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet09.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet10.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet11.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet12.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet13.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet14.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet15.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet16.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet17.vtp"
+    Boundary  : "VTK/F02_second_order_restore_2000/boundary/outlet18.vtp"
+Wrote in 5.25 s, 1194388 kB
+
+End: 5.54 s, 1227456 kB (peak)
+

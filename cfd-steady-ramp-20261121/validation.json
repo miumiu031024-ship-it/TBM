@@ -1,0 +1,16 @@
+{
+  "normally_ended_blocks": 10,
+  "cells": 1264925,
+  "same_geometry_mesh_properties_BCs": true,
+  "restart_six_fields_equal": true,
+  "native_face_flux_matches_monitors": true,
+  "first_order_numeric_criteria": false,
+  "second_order_numeric_criteria": false,
+  "physical_period_established": false,
+  "grid_independence_established": false,
+  "A01_design_effect_evaluated": false,
+  "Python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "OpenFOAM": "v2412",
+  "MPI_processes": 4
+}

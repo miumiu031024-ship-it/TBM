@@ -1,0 +1,60 @@
+{
+  "case": "F02_second_order_restore",
+  "iteration": 2400,
+  "normal_solver_end": true,
+  "last_residuals": {
+    "iteration": 2400.0,
+    "p": 0.08377736162,
+    "Ux": 0.01143635969,
+    "Uy": 0.005089625544,
+    "Uz": 0.002407883327,
+    "k": 0.006016431593,
+    "omega": 0.001328459952
+  },
+  "maximum_residuals_last100": {
+    "p": 0.08377736162,
+    "Ux": 0.01143635969,
+    "Uy": 0.005089625544,
+    "Uz": 0.002407883327,
+    "k": 0.006033005894,
+    "omega": 0.001328459952
+  },
+  "native_velocity_L2_last100": 0.3631326114646073,
+  "maximum_20iter_probe_velocity_L2_last100": 0.22355437454993735,
+  "low_fraction_range_last100_pp": 1.0301692420897721,
+  "low_mask_IoU_last100": 0.47715736040609136,
+  "each_outlet_flow_range_fraction_last100": {
+    "outlet01": 0.00611967302385162,
+    "outlet02": 0.004715135070050438,
+    "outlet03": 0.0044136089080071845,
+    "outlet04": 0.012351049314480592,
+    "outlet05": 0.003108890993106475,
+    "outlet06": 0.0038921582475656604
+  },
+  "final_monitors": {
+    "iteration": 2400.0,
+    "inlet_kg_s": 0.07666666757731318,
+    "outlet_kg_s": 0.07667910611148485,
+    "mass_imbalance_fraction": -0.00016224174813813722,
+    "outlet_spread_percent": 22.131781953532403,
+    "inlet_area_mean_static_Pa": 3173.3457779934556,
+    "outlet01_kg_s": 0.010964454193828658,
+    "outlet02_kg_s": 0.012334367599282846,
+    "outlet03_kg_s": 0.012907560967371204,
+    "outlet04_kg_s": 0.01314077312805922,
+    "outlet05_kg_s": 0.013539087267695663,
+    "outlet06_kg_s": 0.013792862955247252
+  },
+  "criteria": {
+    "residuals": false,
+    "native_velocity": false,
+    "probe_velocity": false,
+    "low_fraction": false,
+    "low_location": false,
+    "outlet_flows": false,
+    "mass_balance": true
+  },
+  "all_steady_numerical_criteria_met": false,
+  "grid_independence_established": false,
+  "physical_time_interpretation": false
+}

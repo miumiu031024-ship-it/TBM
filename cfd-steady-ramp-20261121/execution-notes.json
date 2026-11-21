@@ -1,0 +1,6 @@
+{
+  "reconstruction_after_1400_recovered": true,
+  "solver_1200_to_1400_ended_normally": true,
+  "solver_steps_rerun_due_to_recovery": false,
+  "reason": "On-disk shell runner was edited while waiting; resumed shell offsets failed only after normal solverEnd. Reconstructed saved1300/1400 fields and continued. Later runners are immutable in-memory scripts."
+}

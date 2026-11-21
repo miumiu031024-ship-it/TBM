@@ -1,0 +1,406 @@
+{
+  "points": 1359,
+  "frames": [
+    {
+      "case": "F01_upwind_long",
+      "iteration": 620.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 640.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 660.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 680.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 700.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 720.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 740.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 760.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 780.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 800.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 820.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 840.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 860.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 880.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 900.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 920.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 940.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 960.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 980.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1000.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1020.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1040.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1060.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1080.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1100.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1120.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1140.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1160.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1180.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1200.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1220.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1240.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1260.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1280.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1300.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1320.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1340.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1360.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1380.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1400.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1420.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1440.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1460.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1480.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1500.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1520.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1540.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1560.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1580.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1600.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1620.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1640.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1660.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1680.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1700.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1720.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1740.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1760.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1780.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1800.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1820.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1840.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1860.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1880.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1900.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1920.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1940.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1960.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 1980.0
+    },
+    {
+      "case": "F01_upwind_long",
+      "iteration": 2000.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2020.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2040.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2060.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2080.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2100.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2120.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2140.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2160.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2180.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2200.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2220.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2240.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2260.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2280.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2300.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2320.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2340.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2360.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2380.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2400.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2420.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2440.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2460.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2480.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2500.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2520.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2540.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2560.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2580.0
+    },
+    {
+      "case": "F02_second_order_restore",
+      "iteration": 2600.0
+    }
+  ],
+  "physical_time": false
+}

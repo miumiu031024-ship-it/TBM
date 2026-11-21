@@ -1,0 +1,39 @@
+{
+  "first_order": {
+    "case": "F01_upwind_long",
+    "start_iteration": 600,
+    "checkpoint_interval": 200,
+    "minimum_extra_iterations": 400,
+    "maximum_iteration": 2000,
+    "stop_on_stall": false
+  },
+  "second_order": {
+    "case": "F02_second_order_restore",
+    "maximum_extra_iterations": 600,
+    "checkpoint_interval": 200
+  },
+  "assessment": {
+    "residual_max_last100": {
+      "p": 0.0001,
+      "Ux": 1e-05,
+      "Uy": 1e-05,
+      "Uz": 1e-05,
+      "k": 1e-05,
+      "omega": 1e-05
+    },
+    "native_velocity_relative_L2_last100_below": 0.01,
+    "maximum_20_iteration_probe_vector_relative_L2_last100_below": 0.01,
+    "probe_low_fraction_range_last100_pp_below": 0.2,
+    "each_outlet_flow_range_last100_fraction_below": 0.001,
+    "absolute_total_mass_imbalance_fraction_below": 0.001,
+    "all_required": true,
+    "low_mask_IoU_last100_at_least": 0.95
+  },
+  "claims_excluded": [
+    "Physical time/frequency from steady iterations",
+    "Grid independence",
+    "Thermal or manufacturing validation",
+    "STAR raw-data reproduction",
+    "A01 performance without matched verification"
+  ]
+}

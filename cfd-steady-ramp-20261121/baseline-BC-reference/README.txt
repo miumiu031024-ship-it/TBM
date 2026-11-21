@@ -1,0 +1,1 @@
+Original baseline initial BC reference, not the full600/phase-switch restart fields. In the selected left domain only six inlets and six outlets have faces. Zero-face unused inlet patches are inert zeroGradient. Native restart hashes and actual controls are provided in case metadata.
