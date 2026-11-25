@@ -1,0 +1,1 @@
+Only new processor copies removed AFTER all reconstructed global time20 fields verified finite, positive turbulence quantities, and SHA256 recorded. Native global mesh, 0, time20 fields, postProcessing and logs retained. Originals never modified.

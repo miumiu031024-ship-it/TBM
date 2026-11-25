@@ -1,0 +1,8 @@
+{
+  "version": "OpenFOAMv2412",
+  "checkMesh": "abs(det(sum outer(Sf/meanInternalArea,Sf/meanInternalArea) over internal/coupled faces))/8",
+  "snappy": "det(sum outer(Sf,Sf)/mag(Sf) over ALL faces /sum mag(Sf))*27",
+  "source_checkMesh": "src/OpenFOAM/meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.C:829",
+  "source_snappy": "src/meshTools/primitiveMeshGeometry/primitiveMeshGeometry.C:1127",
+  "note": "Different face selection and normalization; neither is cell volume or a CFD solution residual."
+}

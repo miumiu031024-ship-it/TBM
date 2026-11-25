@@ -1,0 +1,50 @@
+[
+  {
+    "model": "B00",
+    "source_CAD_sha256": "3a2441db330b9844da737732f17a30f84786b96a2d9e901f5270de7dd00a50fc",
+    "boundary_mesh_exactly_unchanged": true,
+    "topology_sha256_equal": {
+      "faces": true,
+      "owner": true,
+      "neighbour": true,
+      "boundary": true,
+      "cellZones": true,
+      "faceZones": true,
+      "pointZones": true
+    },
+    "changed_internal_vertices": 0,
+    "native_cell_ids_unchanged": true
+  },
+  {
+    "model": "C01",
+    "source_CAD_sha256": "5dff9f7a55adc06ebf8471f6e496022c8ac8ee9e4856c76036d74ade27637429",
+    "boundary_mesh_exactly_unchanged": true,
+    "topology_sha256_equal": {
+      "faces": true,
+      "owner": true,
+      "neighbour": true,
+      "boundary": true,
+      "cellZones": true,
+      "faceZones": true,
+      "pointZones": true
+    },
+    "changed_internal_vertices": 6,
+    "native_cell_ids_unchanged": true
+  },
+  {
+    "model": "C02",
+    "source_CAD_sha256": "616a1ae9c5b5662cc8b972166847a7e852df89c5e2a3796466d787a02b1256c8",
+    "boundary_mesh_exactly_unchanged": true,
+    "topology_sha256_equal": {
+      "faces": true,
+      "owner": true,
+      "neighbour": true,
+      "boundary": true,
+      "cellZones": true,
+      "faceZones": true,
+      "pointZones": true
+    },
+    "changed_internal_vertices": 6,
+    "native_cell_ids_unchanged": true
+  }
+]

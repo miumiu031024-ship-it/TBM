@@ -1,0 +1,82 @@
+FoamFile {version 2.0; format ascii; class dictionary; object controlDict;}
+application simpleFoam; startFrom startTime; startTime 0; stopAt endTime; endTime 0; deltaT 1;
+writeControl timeStep; writeInterval 100; purgeWrite 3; writeFormat binary; writePrecision 8; writeCompression off; timeFormat general; timePrecision 8; runTimeModifiable true;
+functions {inlet01Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet01; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet01Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet01; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet02Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet02; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet02Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet02; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet03Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet03; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet03Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet03; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet04Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet04; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet04Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet04; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet05Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet05; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet05Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet05; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet06Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet06; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet06Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet06; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet07Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet07; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet07Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet07; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet08Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet08; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet08Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet08; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet09Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet09; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet09Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet09; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet10Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet10; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet10Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet10; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet11Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet11; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet11Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet11; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet12Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet12; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet12Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet12; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet13Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet13; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet13Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet13; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet14Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet14; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet14Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet14; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet15Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet15; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet15Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet15; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet16Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet16; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet16Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet16; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet17Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet17; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet17Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet17; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet18Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet18; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+inlet18Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet18; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet01Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet01; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet01Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet01; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet02Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet02; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet02Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet02; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet03Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet03; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet03Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet03; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet04Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet04; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet04Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet04; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet05Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet05; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet05Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet05; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet06Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet06; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet06Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet06; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet07Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet07; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet07Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet07; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet08Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet08; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet08Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet08; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet09Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet09; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet09Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet09; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet10Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet10; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet10Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet10; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet11Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet11; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet11Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet11; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet12Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet12; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet12Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet12; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet13Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet13; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet13Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet13; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet14Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet14; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet14Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet14; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet15Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet15; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet15Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet15; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet16Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet16; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet16Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet16; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet17Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet17; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet17Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet17; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet18Flux {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet18; operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+outlet18Pressure {type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name outlet18; operation areaAverage; fields (p); writeFields false; log false; writeControl timeStep; writeInterval 10;}
+wallYPlus {type yPlus; libs (fieldFunctionObjects); executeControl writeTime; writeControl writeTime;}
+midchannelMonitoringProbes {type probes; libs (sampling); fields (U); interpolationScheme cellPoint;
+executeControl timeStep; executeInterval 20; writeControl timeStep; writeInterval 20;
+probeLocations (
+#include "midchannelProbeLocations"
+);}
+}

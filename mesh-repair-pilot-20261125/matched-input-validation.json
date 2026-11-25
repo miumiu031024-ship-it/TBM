@@ -1,0 +1,14 @@
+{
+  "system/controlDict": true,
+  "system/fvSchemes": true,
+  "system/fvSolution": true,
+  "system/decomposeParDict": true,
+  "system/midchannelProbeLocations": true,
+  "constant/transportProperties": true,
+  "constant/turbulenceProperties": true,
+  "0/U": true,
+  "0/p": true,
+  "0/k": true,
+  "0/omega": true,
+  "0/nut": true
+}

@@ -1,0 +1,8 @@
+candidate 1288171 1262785 det 0.23175204614865588 minPyrDistance -1.2260060330730824e-06 maxNonorth 78.15607582659524
+candidate 1288171 1288167 det 0.11666848197935613 minPyrDistance -2.736993300494237e-06 maxNonorth 77.88121888710756
+candidate 1288171 1288168 det 0.33146693320644 minPyrDistance 1.4558763014806033e-06 maxNonorth 74.3689224194292
+Traceback (most recent call last):
+  File "/workspace/scratch/tbm-mesh-repair-20261125/prepare_geometric_cleanup.py", line 69, in <module>
+    assert candidates,cid
+           ^^^^^^^^^^
+AssertionError: 1288171

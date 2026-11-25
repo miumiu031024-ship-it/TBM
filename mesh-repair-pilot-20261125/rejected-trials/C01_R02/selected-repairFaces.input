@@ -1,0 +1,10 @@
+FoamFile {version 2.0; format ascii; class faceSet; object repairFaces;}
+6
+(
+3813217
+3888785
+5572259
+5624832
+9297424
+11107804
+)

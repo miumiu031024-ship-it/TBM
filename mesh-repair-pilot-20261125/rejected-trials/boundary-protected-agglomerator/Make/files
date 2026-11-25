@@ -1,0 +1,3 @@
+internalFaceAgglomerate.C
+
+EXE = /workspace/scratch/tbm-mesh-repair-20261125/bin/internalFaceAgglomerate

@@ -1,0 +1,6 @@
+FoamFile {version 2.0; format ascii; class dictionary; object blockMeshDict;}
+scale 1;
+vertices ((-.05 -.05 -.012) (.05 -.05 -.012) (.05 .05 -.012) (-.05 .05 -.012)
+(-.05 -.05 .052) (.05 -.05 .052) (.05 .05 .052) (-.05 .05 .052));
+blocks (hex (0 1 2 3 4 5 6 7) (28 28 18) simpleGrading (1 1 1));
+edges (); boundary (background {type wall; faces ((0 3 2 1) (4 5 6 7) (0 1 5 4) (1 2 6 5) (2 3 7 6) (3 0 4 7));}); mergePatchPairs ();

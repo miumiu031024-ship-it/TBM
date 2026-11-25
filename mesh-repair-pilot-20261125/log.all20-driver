@@ -1,0 +1,8 @@
+ALL THREE MESH QUALITY GATES PASSED
+B00 START20 2026-11-25T13:50:58.468305+00:00
+B00 20 iterations finite, all six fields preserved, runtime 432.0 s, peak summed RSS 8.086284637451172 GiB
+C01 START20 2026-11-25T13:59:43.859378+00:00
+C01 20 iterations finite, all six fields preserved, runtime 442.0 s, peak summed RSS 8.02407455444336 GiB
+C02 START20 2026-11-25T14:08:24.313999+00:00
+C02 20 iterations finite, all six fields preserved, runtime 561.0 s, peak summed RSS 8.035472869873047 GiB
+ALL THREE 20 ITERATION PILOTS COMPLETE

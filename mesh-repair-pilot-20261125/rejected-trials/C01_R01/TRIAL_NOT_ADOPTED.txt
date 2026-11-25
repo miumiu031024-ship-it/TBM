@@ -1,0 +1,1 @@
+Background phase alternative terminated before completion; input settings and logs retained. No flow calculation. Only new duplicate trial mesh/surfaces removed; source original remains unchanged.

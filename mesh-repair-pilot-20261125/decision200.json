@@ -1,0 +1,10 @@
+{
+  "normal_startup_completed_all": true,
+  "full_additional_mesh_quality_pass": false,
+  "remaining_quality_flag": "concaveCells",
+  "converged_solution_established": false,
+  "design_improvement_established": false,
+  "recommendation": "200-iteration numerical-startup diagnostic is a candidate after user confirmation; not a validated shape-performance comparison.",
+  "run200_executed": false,
+  "additional_storage_needed_for_separate_continuation_cases": true
+}

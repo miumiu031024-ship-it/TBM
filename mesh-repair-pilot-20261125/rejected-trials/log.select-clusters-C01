@@ -1,0 +1,12 @@
+search 1288171 size 2 tested 3 valid 0 bestscore (np.float64(-7.913046117948594), 0.33146693320644)
+search 1288171 size 3 tested 13 valid 0 bestscore (np.float64(-5.3289305383490895), 0.4464903180260233)
+search 1288171 size 4 tested 34 valid 0 bestscore (np.float64(-8.710254917853447), 2.2092276952986505)
+search 1288171 size 5 tested 47 valid 0 bestscore (np.float64(-15.119621440186148), 2.897862730139261)
+search 1288171 size 6 tested 58 valid 0 bestscore (np.float64(-22.546346123718916), 8.774521709854378)
+search 1288171 size 7 tested 66 valid 0 bestscore (np.float64(-19.81814078520599), 9.013239529612559)
+search 1288171 size 8 tested 76 valid 0 bestscore (np.float64(-23.816744299991182), 6.712636297605774)
+Traceback (most recent call last):
+  File "/workspace/scratch/tbm-mesh-repair-20261125/select_clusters.py", line 68, in <module>
+    if not candidates:raise RuntimeError('No safe cluster '+str(cid))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: No safe cluster 1288171

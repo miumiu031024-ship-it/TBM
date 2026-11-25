@@ -1,0 +1,23 @@
+[
+  {
+    "model": "B00",
+    "median_recent_iteration_seconds": 18.5,
+    "estimated_additional_180_minutes": 56.530483333333336,
+    "estimated_cold_200_minutes": 62.69715,
+    "uncertainty": "Pressure iterations, I/O and any scheme change alter costs; use +/-50% preliminary budget, not a guarantee."
+  },
+  {
+    "model": "C01",
+    "median_recent_iteration_seconds": 18.0,
+    "estimated_additional_180_minutes": 54.92523333333334,
+    "estimated_cold_200_minutes": 60.92523333333334,
+    "uncertainty": "Pressure iterations, I/O and any scheme change alter costs; use +/-50% preliminary budget, not a guarantee."
+  },
+  {
+    "model": "C02",
+    "median_recent_iteration_seconds": 25.5,
+    "estimated_additional_180_minutes": 77.34823333333334,
+    "estimated_cold_200_minutes": 85.84823333333334,
+    "uncertainty": "Pressure iterations, I/O and any scheme change alter costs; use +/-50% preliminary budget, not a guarantee."
+  }
+]

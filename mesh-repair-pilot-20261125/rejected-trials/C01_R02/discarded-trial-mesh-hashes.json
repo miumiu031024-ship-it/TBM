@@ -1,0 +1,20 @@
+{
+  "constant/polyMesh/faces": "d497e9d32e3e04e71920b617b8625fd4b7deda3571ecdd5e46e032900c4e4c6e",
+  "constant/polyMesh/points": "6eb1d4fdebeb88d539e26b49de99f73a65703df449df87736d6dddb1e6ab9233",
+  "constant/polyMesh/cellZones": "68052c1d37b53c1000c34fc79e412c6fd0b261e90a42f8c4b2c42d4b47f0d140",
+  "constant/polyMesh/neighbour": "0d6701ed96f9338a59ba102e6dbb61eb8d26f701a0a09e3ddc8c903f98c31f17",
+  "constant/polyMesh/faceZones": "68d5715ea9b4d426cc6d425639c036a4b8f0fd4b0e2c826b1d0cb8c22149f0ec",
+  "constant/polyMesh/pointZones": "bf8707b8f7790afbe530d4d8bc58ea13ccfa9214923baa41092bed1f719caf60",
+  "constant/polyMesh/owner": "5f2943cc330ee0847436d07c1dc5606574bc63f09a50c714ae1a756743c85950",
+  "constant/polyMesh/boundary": "6d1046c5d6dd4d4e1f9183f1f79a92f480ebb163d45411a8c23f6e5ec08198b1",
+  "constant/polyMesh/sets/region2": "9811df24b4016261ac0e1b042be1ad00976beee25c5072cce106c3104677d36a",
+  "constant/polyMesh/sets/region1": "04a00199049bb2ef03ce2735e147f840e7ad4d8b66dbc05a0c56145f87a6cea7",
+  "constant/polyMesh/sets/nonOrthoFaces": "c6c7963f96afd126670300a2dd366d3d80ea48cde61985b6e3187e4a507e607c",
+  "constant/polyMesh/sets/lowQualityTetFaces": "18634b43b30ce2bd4b47aa51261ae29904adeb4d5acbe7ee0364d8bf123cb1c8",
+  "constant/polyMesh/sets/warpedFaces": "94cfe49beb3dd82666385b21437bc3bdc30cb845cf8c5e2924452c651f16fff8",
+  "constant/polyMesh/sets/concaveFaces": "771bd51a89cdd7afce2797b9ac3d8fe39a59e37ccb83f42302bbe16bfa4cf833",
+  "constant/polyMesh/sets/concaveCells": "8f2e6544291ff4f22951eaa0ad21224111c33c3c58e5eafc539c434f2b943559",
+  "constant/polyMesh/sets/skewFaces": "9e4554f21f8fd09b67013329c1bf4cb8c95787dac829c91a7b4af20862dac048",
+  "constant/polyMesh/sets/region0": "d36ca5630e5415c9d1e0816483af7b7f7adc32cf1f39dee49564015465d56f9e",
+  "constant/polyMesh/sets/wrongOrientedFaces": "ca6e48b8f7e1c93754b3e0ed9b834eb3dc485148ee1463ecd413026b17326755"
+}

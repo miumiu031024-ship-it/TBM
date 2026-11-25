@@ -1,0 +1,1 @@
+New temporary trial only; not a user original. Rejected or incomplete. Duplicate native mesh removed to free scratch space after hashes, quality sets, configuration, selections and logs retained. No flow calculation performed. Source original mesh remains unchanged.

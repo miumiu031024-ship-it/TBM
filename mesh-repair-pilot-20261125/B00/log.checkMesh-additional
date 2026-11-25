@@ -1,0 +1,178 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : checkMesh -allTopology -allGeometry
+Date   : Nov 25 2026
+Time   : 13:47:43
+Host   : 233e724de3c6
+PID    : 11236
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-mesh-repair-20261125/B00_R07
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From virtual void Foam::Time::readDict()
+    in file db/Time/TimeIO.C at line 403
+    Reading "system/controlDict" at line 2 to 80
+    Disabled output compression for non-ascii format (inefficient/ineffective)
+Create mesh for time = 0
+
+Check mesh...
+    Enabling all (cell, face, edge, point) topology checks.
+    Enabling all geometry checks.
+
+Time = 0
+
+Mesh stats 
+    points:           5637436
+    faces:            15519729
+    internal faces:   14588538
+    cells:            5037651
+    faces per cell:   5.976648
+    boundary patches: 37
+    point zones:      1
+    face zones:       0
+    cell zones:       3
+
+Overall number of cells of each type:
+    hexahedra:     4511613
+    prisms:        124445
+    wedges:        0
+    pyramids:      0
+    tet wedges:    2821
+    tetrahedra:    0
+    polyhedra:     398772
+    Breakdown of polyhedra by number of faces:
+        faces   number of cells
+            4   166820
+            5   89358
+            6   50196
+            7   5504
+            8   3608
+            9   44606
+           10   16
+           11   284
+           12   20394
+           13   32
+           14   714
+           15   15916
+           17   8
+           18   1316
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Topological cell zip-up check OK.
+    Face-face connectivity OK.
+   *Number of regions: 3
+    The mesh has multiple regions which are not connected by any face.
+  <<Writing region information to "0/cellToRegion"
+  <<Writing region 0 (fully disconnected) with 2507825 cells to cellSet region0
+  <<Writing region 1 (fully disconnected) with 1264915 cells to cellSet region1
+  <<Writing region 2 (fully disconnected) with 1264911 cells to cellSet region2
+
+Checking patch topology for multiply connected surfaces...
+                   Patch    Faces   Points  Surface topology  Bounding box
+                   walls   926079  1116211  ok (non-closed singly connected) (-0.047899998 -0.047899998 -0.0099999998) (0.047899998 0.047899998 0.047899999)
+                 inlet01      144      153  ok (non-closed singly connected) (-0.047722631 -0.0055435291 -0.0099999998) (-0.044724222 -0.0025445237 -0.0099999998)
+                 inlet02      140      151  ok (non-closed singly connected) (-0.04631862 -0.013508522 -0.0099999998) (-0.04331963 -0.010510192 -0.0099999998)
+                 inlet03      142      152  ok (non-closed singly connected) (-0.043551959 -0.021106493 -0.0099999998) (-0.040552883 -0.018112717 -0.0099999998)
+                 inlet04      139      149  ok (non-closed singly connected) (-0.039507282 -0.028112199 -0.0099999998) (-0.036510959 -0.02511701 -0.0099999998)
+                 inlet05      148      157  ok (non-closed singly connected) (-0.03430926 -0.034309662 -0.0099999998) (-0.031310245 -0.0313099 -0.0099999998)
+                 inlet06      139      149  ok (non-closed singly connected) (-0.028112174 -0.039507045 -0.0099999998) (-0.025116709 -0.036510765 -0.0099999998)
+                 inlet07      142      152  ok (non-closed singly connected) (-0.021106038 -0.043552414 -0.0099999998) (-0.018112571 -0.040553329 -0.0099999998)
+                 inlet08      140      151  ok (non-closed singly connected) (-0.013508369 -0.0463181 -0.0099999998) (-0.01051 -0.043319696 -0.0099999998)
+                 inlet09      144      153  ok (non-closed singly connected) (-0.0055433731 -0.04772277 -0.0099999998) (-0.0025444332 -0.044723751 -0.0099999998)
+                 inlet10      144      153  ok (non-closed singly connected) (0.0025445237 -0.047722631 -0.0099999998) (0.0055435291 -0.044724222 -0.0099999998)
+                 inlet11      140      151  ok (non-closed singly connected) (0.010510192 -0.04631862 -0.0099999998) (0.013508522 -0.04331963 -0.0099999998)
+                 inlet12      142      152  ok (non-closed singly connected) (0.018112717 -0.043551959 -0.0099999998) (0.021106493 -0.040552883 -0.0099999998)
+                 inlet13      139      149  ok (non-closed singly connected) (0.02511701 -0.039507282 -0.0099999998) (0.028112199 -0.036510959 -0.0099999998)
+                 inlet14      148      157  ok (non-closed singly connected) (0.0313099 -0.03430926 -0.0099999998) (0.034309662 -0.031310245 -0.0099999998)
+                 inlet15      139      149  ok (non-closed singly connected) (0.036510765 -0.028112174 -0.0099999998) (0.039507045 -0.025116709 -0.0099999998)
+                 inlet16      142      152  ok (non-closed singly connected) (0.040553329 -0.021106038 -0.0099999998) (0.043552414 -0.018112571 -0.0099999998)
+                 inlet17      140      151  ok (non-closed singly connected) (0.043319696 -0.013508369 -0.0099999998) (0.0463181 -0.01051 -0.0099999998)
+                 inlet18      144      153  ok (non-closed singly connected) (0.044723751 -0.0055433731 -0.0099999998) (0.04772277 -0.0025444332 -0.0099999998)
+                outlet01      144      153  ok (non-closed singly connected) (-0.04772277 0.0025444332 -0.0099999998) (-0.044723751 0.0055433731 -0.0099999998)
+                outlet02      140      151  ok (non-closed singly connected) (-0.0463181 0.01051 -0.0099999998) (-0.043319696 0.013508369 -0.0099999998)
+                outlet03      142      152  ok (non-closed singly connected) (-0.043552414 0.018112571 -0.0099999998) (-0.040553329 0.021106038 -0.0099999998)
+                outlet04      139      149  ok (non-closed singly connected) (-0.039507045 0.025116709 -0.0099999998) (-0.036510765 0.028112174 -0.0099999998)
+                outlet05      148      157  ok (non-closed singly connected) (-0.034309662 0.031310245 -0.0099999998) (-0.0313099 0.03430926 -0.0099999998)
+                outlet06      139      149  ok (non-closed singly connected) (-0.028112199 0.036510959 -0.0099999998) (-0.02511701 0.039507282 -0.0099999998)
+                outlet07      142      152  ok (non-closed singly connected) (-0.021106493 0.040552883 -0.0099999998) (-0.018112717 0.043551959 -0.0099999998)
+                outlet08      140      151  ok (non-closed singly connected) (-0.013508522 0.04331963 -0.0099999998) (-0.010510192 0.04631862 -0.0099999998)
+                outlet09      144      153  ok (non-closed singly connected) (-0.0055435291 0.044724222 -0.0099999998) (-0.0025445237 0.047722631 -0.0099999998)
+                outlet10      144      153  ok (non-closed singly connected) (0.0025444332 0.044723751 -0.0099999998) (0.0055433731 0.04772277 -0.0099999998)
+                outlet11      140      151  ok (non-closed singly connected) (0.01051 0.043319696 -0.0099999998) (0.013508369 0.0463181 -0.0099999998)
+                outlet12      142      152  ok (non-closed singly connected) (0.018112571 0.040553329 -0.0099999998) (0.021106038 0.043552414 -0.0099999998)
+                outlet13      139      149  ok (non-closed singly connected) (0.025116709 0.036510765 -0.0099999998) (0.028112174 0.039507045 -0.0099999998)
+                outlet14      148      157  ok (non-closed singly connected) (0.031310245 0.0313099 -0.0099999998) (0.03430926 0.034309662 -0.0099999998)
+                outlet15      139      149  ok (non-closed singly connected) (0.036510959 0.02511701 -0.0099999998) (0.039507282 0.028112199 -0.0099999998)
+                outlet16      142      152  ok (non-closed singly connected) (0.040552883 0.018112717 -0.0099999998) (0.043551959 0.021106493 -0.0099999998)
+                outlet17      140      151  ok (non-closed singly connected) (0.04331963 0.010510192 -0.0099999998) (0.04631862 0.013508522 -0.0099999998)
+                outlet18      144      153  ok (non-closed singly connected) (0.044724222 0.0025445237 -0.0099999998) (0.047722631 0.0055435291 -0.0099999998)
+                    ".*"   931191  1120391      ok (closed singly connected) (-0.047899998 -0.047899998 -0.0099999998) (0.047899998 0.047899998 0.047899999)
+
+
+Checking faceZone topology for multiply connected surfaces...
+    No faceZones found.
+
+Checking basic cellZone addressing...
+                CellZone        Cells       Points       VolumeBoundingBox
+           Water_Xminus      1264911      1410860 1.0776389e-05 (-0.047899998 -0.041625965 -0.0099999998) (-0.02369978 0.041625965 0.041625965)
+           Water_Center      2507825      2815710 2.0696508e-05 (-0.022702426 -0.047899998 -0.0099999998) (0.022701877 0.047899998 0.047899999)
+            Water_Xplus      1264915      1410866 1.0776382e-05 (0.023699801 -0.041625954 -0.0099999998) (0.047899998 0.041625954 0.041625954)
+
+Checking basic pointZone addressing...
+               PointZone  PointsBoundingBox
+            frozenPoints       0(1e+150 1e+150 1e+150) (-1e+150 -1e+150 -1e+150)
+
+Checking geometry...
+    Overall domain bounding box (-0.047899998 -0.047899998 -0.0099999998) (0.047899998 0.047899998 0.047899999)
+    Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
+    Mesh has 3 solution (non-empty) directions (1 1 1)
+    Boundary openness (-2.7494926e-16 1.9265334e-17 -2.4509878e-16) OK.
+    Max cell openness = 3.3144821e-16 OK.
+    Max aspect ratio = 5.8771387 OK.
+    Minimum face area = 1.737233e-10. Maximum face area = 9.9756941e-08.  Face area magnitudes OK.
+    Min volume = 1.9378795e-14. Max volume = 1.8016386e-11.  Total volume = 4.2249279e-05.  Cell volumes OK.
+    Mesh non-orthogonality Max: 59.166884 average: 7.9390564
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 3.0217181 OK.
+    Coupled point location match (average 0) OK.
+    Face tets OK.
+    Min/max edge length = 1.1016564e-06 0.00051899401 OK.
+   *There are 9047 faces with concave angles between consecutive edges. Max concave angle = 79.997166 degrees.
+  <<Writing 9047 faces with concave angles to set concaveFaces
+    Face flatness (1 = flat, 0 = butterfly) : min = 0.45968755  average = 0.9981369
+   *There are 517 faces with ratio between projected and actual area < 0.8
+    Minimum ratio (minimum flatness, maximum warpage) = 0.45968755
+  <<Writing 517 warped faces to set warpedFaces
+    Cell determinant (wellposedness) : minimum: 0.0048215023 average: 1.2348021
+    Cell determinant check OK.
+ ***Concave cells (using face planes) found, number of cells: 68027
+  <<Writing 68027 concave cells to set concaveCells
+    Face interpolation weight : minimum: 0.10274906 average: 0.47947328
+    Face interpolation weight check OK.
+    Face volume ratio : minimum: 0.023270811 average: 0.89448433
+    Face volume ratio check OK.
+
+Failed 1 mesh checks.
+
+End
+

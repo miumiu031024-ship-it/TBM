@@ -1,0 +1,90 @@
+FoamFile {version 2.0; format ascii; class dictionary; object snappyHexMeshDict;}
+castellatedMesh true; snap true; addLayers false;
+geometry {walls.stl {type triSurfaceMesh; name walls;}
+inlet01.stl {type triSurfaceMesh; name inlet01;}
+inlet02.stl {type triSurfaceMesh; name inlet02;}
+inlet03.stl {type triSurfaceMesh; name inlet03;}
+inlet04.stl {type triSurfaceMesh; name inlet04;}
+inlet05.stl {type triSurfaceMesh; name inlet05;}
+inlet06.stl {type triSurfaceMesh; name inlet06;}
+inlet07.stl {type triSurfaceMesh; name inlet07;}
+inlet08.stl {type triSurfaceMesh; name inlet08;}
+inlet09.stl {type triSurfaceMesh; name inlet09;}
+inlet10.stl {type triSurfaceMesh; name inlet10;}
+inlet11.stl {type triSurfaceMesh; name inlet11;}
+inlet12.stl {type triSurfaceMesh; name inlet12;}
+inlet13.stl {type triSurfaceMesh; name inlet13;}
+inlet14.stl {type triSurfaceMesh; name inlet14;}
+inlet15.stl {type triSurfaceMesh; name inlet15;}
+inlet16.stl {type triSurfaceMesh; name inlet16;}
+inlet17.stl {type triSurfaceMesh; name inlet17;}
+inlet18.stl {type triSurfaceMesh; name inlet18;}
+outlet01.stl {type triSurfaceMesh; name outlet01;}
+outlet02.stl {type triSurfaceMesh; name outlet02;}
+outlet03.stl {type triSurfaceMesh; name outlet03;}
+outlet04.stl {type triSurfaceMesh; name outlet04;}
+outlet05.stl {type triSurfaceMesh; name outlet05;}
+outlet06.stl {type triSurfaceMesh; name outlet06;}
+outlet07.stl {type triSurfaceMesh; name outlet07;}
+outlet08.stl {type triSurfaceMesh; name outlet08;}
+outlet09.stl {type triSurfaceMesh; name outlet09;}
+outlet10.stl {type triSurfaceMesh; name outlet10;}
+outlet11.stl {type triSurfaceMesh; name outlet11;}
+outlet12.stl {type triSurfaceMesh; name outlet12;}
+outlet13.stl {type triSurfaceMesh; name outlet13;}
+outlet14.stl {type triSurfaceMesh; name outlet14;}
+outlet15.stl {type triSurfaceMesh; name outlet15;}
+outlet16.stl {type triSurfaceMesh; name outlet16;}
+outlet17.stl {type triSurfaceMesh; name outlet17;}
+outlet18.stl {type triSurfaceMesh; name outlet18;}
+volume.stl {type triSurfaceMesh; name volume;}
+rootGuide.stl {type triSurfaceMesh; name rootGuide;}}
+castellatedMeshControls {maxLocalCells 3000000; maxGlobalCells 9000000; minRefinementCells 0; maxLoadUnbalance .1; nCellsBetweenLevels 3;
+features ({file "walls.eMesh"; level 4;} {file "inlet01.eMesh"; level 4;} {file "inlet02.eMesh"; level 4;} {file "inlet03.eMesh"; level 4;} {file "inlet04.eMesh"; level 4;} {file "inlet05.eMesh"; level 4;} {file "inlet06.eMesh"; level 4;} {file "inlet07.eMesh"; level 4;} {file "inlet08.eMesh"; level 4;} {file "inlet09.eMesh"; level 4;} {file "inlet10.eMesh"; level 4;} {file "inlet11.eMesh"; level 4;} {file "inlet12.eMesh"; level 4;} {file "inlet13.eMesh"; level 4;} {file "inlet14.eMesh"; level 4;} {file "inlet15.eMesh"; level 4;} {file "inlet16.eMesh"; level 4;} {file "inlet17.eMesh"; level 4;} {file "inlet18.eMesh"; level 4;} {file "outlet01.eMesh"; level 4;} {file "outlet02.eMesh"; level 4;} {file "outlet03.eMesh"; level 4;} {file "outlet04.eMesh"; level 4;} {file "outlet05.eMesh"; level 4;} {file "outlet06.eMesh"; level 4;} {file "outlet07.eMesh"; level 4;} {file "outlet08.eMesh"; level 4;} {file "outlet09.eMesh"; level 4;} {file "outlet10.eMesh"; level 4;} {file "outlet11.eMesh"; level 4;} {file "outlet12.eMesh"; level 4;} {file "outlet13.eMesh"; level 4;} {file "outlet14.eMesh"; level 4;} {file "outlet15.eMesh"; level 4;} {file "outlet16.eMesh"; level 4;} {file "outlet17.eMesh"; level 4;} {file "outlet18.eMesh"; level 4;}); refinementSurfaces {walls {level (4 4); patchInfo {type wall;}}
+inlet01 {level (4 4); patchInfo {type patch;}}
+inlet02 {level (4 4); patchInfo {type patch;}}
+inlet03 {level (4 4); patchInfo {type patch;}}
+inlet04 {level (4 4); patchInfo {type patch;}}
+inlet05 {level (4 4); patchInfo {type patch;}}
+inlet06 {level (4 4); patchInfo {type patch;}}
+inlet07 {level (4 4); patchInfo {type patch;}}
+inlet08 {level (4 4); patchInfo {type patch;}}
+inlet09 {level (4 4); patchInfo {type patch;}}
+inlet10 {level (4 4); patchInfo {type patch;}}
+inlet11 {level (4 4); patchInfo {type patch;}}
+inlet12 {level (4 4); patchInfo {type patch;}}
+inlet13 {level (4 4); patchInfo {type patch;}}
+inlet14 {level (4 4); patchInfo {type patch;}}
+inlet15 {level (4 4); patchInfo {type patch;}}
+inlet16 {level (4 4); patchInfo {type patch;}}
+inlet17 {level (4 4); patchInfo {type patch;}}
+inlet18 {level (4 4); patchInfo {type patch;}}
+outlet01 {level (4 4); patchInfo {type patch;}}
+outlet02 {level (4 4); patchInfo {type patch;}}
+outlet03 {level (4 4); patchInfo {type patch;}}
+outlet04 {level (4 4); patchInfo {type patch;}}
+outlet05 {level (4 4); patchInfo {type patch;}}
+outlet06 {level (4 4); patchInfo {type patch;}}
+outlet07 {level (4 4); patchInfo {type patch;}}
+outlet08 {level (4 4); patchInfo {type patch;}}
+outlet09 {level (4 4); patchInfo {type patch;}}
+outlet10 {level (4 4); patchInfo {type patch;}}
+outlet11 {level (4 4); patchInfo {type patch;}}
+outlet12 {level (4 4); patchInfo {type patch;}}
+outlet13 {level (4 4); patchInfo {type patch;}}
+outlet14 {level (4 4); patchInfo {type patch;}}
+outlet15 {level (4 4); patchInfo {type patch;}}
+outlet16 {level (4 4); patchInfo {type patch;}}
+outlet17 {level (4 4); patchInfo {type patch;}}
+outlet18 {level (4 4); patchInfo {type patch;}}} resolveFeatureAngle 30;
+refinementRegions {volume {mode inside; levels ((1e15 4));} rootGuide {mode distance; levels ((.00030 6) (.00060 5));}}
+locationsInMesh (((-0.04622343399145 -0.004044026463491 -0.008) Water_Xminus) ((-0.019609487344759997 -0.0420526813185 -0.008) Water_Center) ((0.026613946646689 -0.038008654855000004 -0.008) Water_Xplus)); allowFreeStandingZoneFaces true;}
+snapControls {nSmoothPatch 5; tolerance 1.5; nSolveIter 60; nRelaxIter 8; nFeatureSnapIter 15; implicitFeatureSnap false; explicitFeatureSnap true; multiRegionFeatureSnap false;}
+addLayersControls {relativeSizes true; layers {} expansionRatio 1.2; finalLayerThickness .3; minThickness .1; nGrow 0; featureAngle 60; nRelaxIter 5; nSmoothSurfaceNormals 1; nSmoothNormals 3; nSmoothThickness 10; maxFaceThicknessRatio .5; maxThicknessToMedialRatio .3; minMedialAxisAngle 90; nBufferCellsNoExtrude 0; nLayerIter 50;}
+meshQualityControls {
+#includeEtc "caseDicts/meshQualityDict"
+minTetQuality 1e-9;
+minVol 1e-18;
+nSmoothScale 4; errorReduction .75;
+}
+mergeTolerance 1e-7;

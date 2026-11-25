@@ -1,0 +1,173 @@
+{
+  "model": "C01",
+  "iterations": 20,
+  "normal_end": true,
+  "all_fields_finite": true,
+  "fields": {
+    "U": {
+      "internal_entities": 4997954,
+      "min": -3.4004820497113406,
+      "max": 3.445805515904017,
+      "all_finite": true,
+      "compressed_sha256": "eb1bf065c3a5501b5df4ef055754592b0d23cc88595c56f0280d616ee39502e5",
+      "max_speed_m_s": 3.8868836180200343
+    },
+    "p": {
+      "internal_entities": 4997954,
+      "min": 0.15546148515493227,
+      "max": 84.1246541611052,
+      "all_finite": true,
+      "compressed_sha256": "15a5195c1438e8c208578969e259d587c5f37f3404a88a3da5c0443d725efaf2"
+    },
+    "k": {
+      "internal_entities": 4997954,
+      "min": 9.162400682372128e-05,
+      "max": 0.08697676811868095,
+      "all_finite": true,
+      "compressed_sha256": "1dc937dbd966781de3f3de43d7192e462a725bc78981ffb4d6808b0809d7d2ff"
+    },
+    "omega": {
+      "internal_entities": 4997954,
+      "min": 1170.5303659362082,
+      "max": 2339278.34758297,
+      "all_finite": true,
+      "compressed_sha256": "dbf83b17ea11c3b25c90ce058c963187ca92cd99d4f9c9a4de1f4c2c35a253e7"
+    },
+    "nut": {
+      "internal_entities": 4997954,
+      "min": 2.776868247279775e-10,
+      "max": 2.1123715080920422e-05,
+      "all_finite": true,
+      "compressed_sha256": "38c1273c36b482c6c5c5b293f95fd0d44f7ceda7f97affcf912cfaa864388e15"
+    },
+    "phi": {
+      "internal_entities": 14474490,
+      "min": -1.9895250902401922e-07,
+      "max": 2.1618833502373312e-07,
+      "all_finite": true,
+      "compressed_sha256": "70db0b828d9297c6521c900d0c90722fb03248a99b58a1ed71e17fcc8b8430ad"
+    }
+  },
+  "final_initial_residuals": {
+    "p": 0.15972331,
+    "Ux": 0.022790433,
+    "Uy": 0.038843685,
+    "Uz": 0.02168119,
+    "k": 0.035617345,
+    "omega": 0.0015460436
+  },
+  "start_boundary": {
+    "iteration": 1,
+    "inlet_kg_s": 0.2300000030140035,
+    "outlet_kg_s": 0.22970441557812887,
+    "net_imbalance_kg_s": -0.000295587435874628,
+    "net_imbalance_percent": -0.12851627478310565,
+    "inlet_mean_static_Pa": 92701.80375563695,
+    "outlet_mean_static_Pa": 0.0,
+    "static_pressure_difference_Pa": 92701.80375563695,
+    "Water_Xminus_imbalance_percent": -0.18159731152908598,
+    "Water_Xminus_spread_percent": 59.41932363784099,
+    "Water_Center_imbalance_percent": -0.11290646474764371,
+    "Water_Center_spread_percent": 3.1383993610010688,
+    "Water_Xplus_imbalance_percent": -0.09104504807258726,
+    "Water_Xplus_spread_percent": 59.38099671826391,
+    "outlet01_kg_s": 0.017707292793090097,
+    "outlet02_kg_s": 0.014607487089864061,
+    "outlet03_kg_s": 0.01250363893652372,
+    "outlet04_kg_s": 0.011397506382521181,
+    "outlet05_kg_s": 0.010182906579909475,
+    "outlet06_kg_s": 0.010128611282095884,
+    "outlet07_kg_s": 0.012567138846988641,
+    "outlet08_kg_s": 0.012966720429842307,
+    "outlet09_kg_s": 0.012754782046504114,
+    "outlet10_kg_s": 0.012755241780913045,
+    "outlet11_kg_s": 0.012967703773461993,
+    "outlet12_kg_s": 0.012568519169516868,
+    "outlet13_kg_s": 0.010139985175546117,
+    "outlet14_kg_s": 0.010195116890011176,
+    "outlet15_kg_s": 0.01140604232449593,
+    "outlet16_kg_s": 0.012517340379995601,
+    "outlet17_kg_s": 0.014617732727468968,
+    "outlet18_kg_s": 0.01772064896937968
+  },
+  "last_boundary": {
+    "iteration": 20,
+    "inlet_kg_s": 0.2300000030140035,
+    "outlet_kg_s": 0.23050285425732808,
+    "net_imbalance_kg_s": 0.0005028512433245813,
+    "net_imbalance_percent": 0.21863097249349397,
+    "inlet_mean_static_Pa": 52892.49556383892,
+    "outlet_mean_static_Pa": 0.0,
+    "static_pressure_difference_Pa": 52892.49556383892,
+    "Water_Xminus_imbalance_percent": 0.261613250069846,
+    "Water_Xminus_spread_percent": 13.43681894884768,
+    "Water_Center_imbalance_percent": 0.22253464163433495,
+    "Water_Center_spread_percent": 0.972226109767394,
+    "Water_Xplus_imbalance_percent": 0.17174502577633727,
+    "Water_Xplus_spread_percent": 13.47276952960226,
+    "outlet01_kg_s": 0.013929561058964425,
+    "outlet02_kg_s": 0.013248136166402668,
+    "outlet03_kg_s": 0.012761100876198687,
+    "outlet04_kg_s": 0.012469251160912147,
+    "outlet05_kg_s": 0.0122510461073262,
+    "outlet06_kg_s": 0.012208142462545596,
+    "outlet07_kg_s": 0.012731962251211405,
+    "outlet08_kg_s": 0.012853518834648327,
+    "outlet09_kg_s": 0.012836831094950929,
+    "outlet10_kg_s": 0.012831367336931724,
+    "outlet11_kg_s": 0.012854051696750935,
+    "outlet12_kg_s": 0.012729546350996579,
+    "outlet13_kg_s": 0.01219996924885551,
+    "outlet14_kg_s": 0.012241835674307413,
+    "outlet15_kg_s": 0.012442586639814252,
+    "outlet16_kg_s": 0.01274964467678302,
+    "outlet17_kg_s": 0.013239856171355795,
+    "outlet18_kg_s": 0.013924446448372487
+  },
+  "regions": [
+    {
+      "region": "Water_Xminus",
+      "inlet_kg_s": 0.0766666676713345,
+      "outlet_kg_s": 0.07686723783234972,
+      "imbalance_percent": 0.261613250069846,
+      "outlet_spread_percent": 13.43681894884768,
+      "first_outlet_kg_s": 0.013929561058964425,
+      "sixth_outlet_kg_s": 0.012208142462545596
+    },
+    {
+      "region": "Water_Center",
+      "inlet_kg_s": 0.0766666676713345,
+      "outlet_kg_s": 0.07683727756548989,
+      "imbalance_percent": 0.22253464163433495,
+      "outlet_spread_percent": 0.972226109767394,
+      "first_outlet_kg_s": 0.012731962251211405,
+      "sixth_outlet_kg_s": 0.012729546350996579
+    },
+    {
+      "region": "Water_Xplus",
+      "inlet_kg_s": 0.0766666676713345,
+      "outlet_kg_s": 0.07679833885948849,
+      "imbalance_percent": 0.17174502577633727,
+      "outlet_spread_percent": 13.47276952960226,
+      "first_outlet_kg_s": 0.01219996924885551,
+      "sixth_outlet_kg_s": 0.013924446448372487
+    }
+  ],
+  "startup_yPlus_walls": [
+    0.19608122,
+    233.8665,
+    25.264058
+  ],
+  "solver_elapsed_seconds": 442.0,
+  "driver_time": "real_seconds 446.514 user_seconds 1594.239 sys_seconds 131.267",
+  "sampled_peak_solver_summed_RSS_GiB": 8.02407455444336,
+  "sampled_peak_container_memory_including_cache_GiB": 9.000091552734375,
+  "sampled_peak_container_anon_GiB": 7.779163360595703,
+  "memory_sampling_interval_seconds": 5,
+  "warnings": [],
+  "actual_solver_fatal": false,
+  "last10_max_abs_global_imbalance_percent": 0.5206556756626929,
+  "last10_inlet_static_pressure_range_Pa": 342906.3498893376,
+  "NOTE": "Startup test only. Steady iteration is NOT physical time. No design improvement or convergence established. 200 iterations NOT executed.",
+  "solver_wall_seconds": 446.514
+}

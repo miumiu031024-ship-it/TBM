@@ -1,0 +1,677 @@
+{
+  "name": "C02",
+  "source_STEP": "C02_partition_yaw_minus1_water.step",
+  "source_sha256": "616a1ae9c5b5662cc8b972166847a7e852df89c5e2a3796466d787a02b1256c8",
+  "CAD_volume_mm3": 42266.569140104744,
+  "rho_kg_m3": 746.200955901462,
+  "nu_m2_s": 1.239443712658549e-07,
+  "mu_Pa_s": 9.248740831718662e-05,
+  "temperature_C": 290,
+  "absolute_pressure_MPa": 15.5,
+  "mass_flow_kg_s": 0.23,
+  "ports": [
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -46.22343399145,
+      "y_mm": -4.044026463491,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577037,
+      "radius_mm": 1.5,
+      "port": "IN_01",
+      "patch": "inlet01"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -44.81895833981,
+      "y_mm": -12.00920369275,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "IN_02",
+      "patch": "inlet02"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -42.0526813185,
+      "y_mm": -19.60948734476,
+      "z_mm": -10.0,
+      "area_mm2": 7.0685834705770105,
+      "radius_mm": 1.5,
+      "port": "IN_03",
+      "patch": "inlet03"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -38.008654855,
+      "y_mm": -26.61394664668,
+      "z_mm": -9.999999999999998,
+      "area_mm2": 7.0685834705770425,
+      "radius_mm": 1.5,
+      "port": "IN_04",
+      "patch": "inlet04"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -32.80975464705,
+      "y_mm": -32.80975464705,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470576998,
+      "radius_mm": 1.5,
+      "port": "IN_05",
+      "patch": "inlet05"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "IN",
+      "x_mm": -26.613946646679995,
+      "y_mm": -38.008654855,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577019,
+      "radius_mm": 1.5,
+      "port": "IN_06",
+      "patch": "inlet06"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": -19.609487344759998,
+      "y_mm": -42.0526813185,
+      "z_mm": -9.999999999999998,
+      "area_mm2": 7.0685834705770425,
+      "radius_mm": 1.5,
+      "port": "IN_07",
+      "patch": "inlet07"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": -12.00920369275,
+      "y_mm": -44.81895833981,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "IN_08",
+      "patch": "inlet08"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": -4.044026463491,
+      "y_mm": -46.22343399145,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "IN_09",
+      "patch": "inlet09"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": 4.044026463491,
+      "y_mm": -46.22343399145,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577037,
+      "radius_mm": 1.5,
+      "port": "IN_10",
+      "patch": "inlet10"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": 12.009203692757,
+      "y_mm": -44.81895833981,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "IN_11",
+      "patch": "inlet11"
+    },
+    {
+      "region": "Water_Center",
+      "side": "IN",
+      "x_mm": 19.609487344768002,
+      "y_mm": -42.05268131850001,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "IN_12",
+      "patch": "inlet12"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 26.613946646689,
+      "y_mm": -38.008654855,
+      "z_mm": -9.999999999999998,
+      "area_mm2": 7.0685834705770425,
+      "radius_mm": 1.5,
+      "port": "IN_13",
+      "patch": "inlet13"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 32.809754647056,
+      "y_mm": -32.80975464705,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470576998,
+      "radius_mm": 1.5,
+      "port": "IN_14",
+      "patch": "inlet14"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 38.008654855009,
+      "y_mm": -26.613946646679995,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577019,
+      "radius_mm": 1.5,
+      "port": "IN_15",
+      "patch": "inlet15"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 42.0526813185,
+      "y_mm": -19.60948734476,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577042,
+      "radius_mm": 1.5,
+      "port": "IN_16",
+      "patch": "inlet16"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 44.818958339813,
+      "y_mm": -12.00920369275,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "IN_17",
+      "patch": "inlet17"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "IN",
+      "x_mm": 46.223433991457,
+      "y_mm": -4.044026463491,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "IN_18",
+      "patch": "inlet18"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -46.22343399145,
+      "y_mm": 4.044026463491,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "OUT_01",
+      "patch": "outlet01"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -44.81895833981,
+      "y_mm": 12.009203692756998,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "OUT_02",
+      "patch": "outlet02"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -42.0526813185,
+      "y_mm": 19.609487344768,
+      "z_mm": -9.999999999999998,
+      "area_mm2": 7.0685834705770425,
+      "radius_mm": 1.5,
+      "port": "OUT_03",
+      "patch": "outlet03"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -38.008654855,
+      "y_mm": 26.613946646688998,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577019,
+      "radius_mm": 1.5,
+      "port": "OUT_04",
+      "patch": "outlet04"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -32.80975464705,
+      "y_mm": 32.809754647056,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470576998,
+      "radius_mm": 1.5,
+      "port": "OUT_05",
+      "patch": "outlet05"
+    },
+    {
+      "region": "Water_Xminus",
+      "side": "OUT",
+      "x_mm": -26.61394664668,
+      "y_mm": 38.008654855009,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577042,
+      "radius_mm": 1.5,
+      "port": "OUT_06",
+      "patch": "outlet06"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": -19.60948734476,
+      "y_mm": 42.052681318501,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577013,
+      "radius_mm": 1.5,
+      "port": "OUT_07",
+      "patch": "outlet07"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": -12.00920369275,
+      "y_mm": 44.818958339813,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "OUT_08",
+      "patch": "outlet08"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": -4.044026463491,
+      "y_mm": 46.223433991457,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577037,
+      "radius_mm": 1.5,
+      "port": "OUT_09",
+      "patch": "outlet09"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": 4.044026463491,
+      "y_mm": 46.223433991457,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "OUT_10",
+      "patch": "outlet10"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": 12.009203692756998,
+      "y_mm": 44.818958339813,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "OUT_11",
+      "patch": "outlet11"
+    },
+    {
+      "region": "Water_Center",
+      "side": "OUT",
+      "x_mm": 19.609487344768,
+      "y_mm": 42.052681318501,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577042,
+      "radius_mm": 1.5,
+      "port": "OUT_12",
+      "patch": "outlet12"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 26.613946646688998,
+      "y_mm": 38.008654855009,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577019,
+      "radius_mm": 1.5,
+      "port": "OUT_13",
+      "patch": "outlet13"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 32.809754647056,
+      "y_mm": 32.809754647056,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470576998,
+      "radius_mm": 1.5,
+      "port": "OUT_14",
+      "patch": "outlet14"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 38.008654855009,
+      "y_mm": 26.613946646689,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577042,
+      "radius_mm": 1.5,
+      "port": "OUT_15",
+      "patch": "outlet15"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 42.052681318501,
+      "y_mm": 19.609487344768002,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577012,
+      "radius_mm": 1.5,
+      "port": "OUT_16",
+      "patch": "outlet16"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 44.818958339813,
+      "y_mm": 12.009203692757,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577056,
+      "radius_mm": 1.5,
+      "port": "OUT_17",
+      "patch": "outlet17"
+    },
+    {
+      "region": "Water_Xplus",
+      "side": "OUT",
+      "x_mm": 46.223433991457,
+      "y_mm": 4.044026463491,
+      "z_mm": -10.0,
+      "area_mm2": 7.068583470577037,
+      "radius_mm": 1.5,
+      "port": "OUT_18",
+      "patch": "outlet18"
+    }
+  ],
+  "seeds_m": [
+    [
+      -0.04622343399145,
+      -0.004044026463491,
+      -0.008
+    ],
+    [
+      -0.019609487344759997,
+      -0.0420526813185,
+      -0.008
+    ],
+    [
+      0.026613946646689,
+      -0.038008654855000004,
+      -0.008
+    ]
+  ],
+  "base_target_cells": 5000000,
+  "STL_linear_tolerance_mm": 0.001,
+  "STL_relative_tolerance": false,
+  "nominal_root_cell_mm": 0.0558,
+  "nominal_bulk_cell_mm": 0.2232,
+  "explicit_prism_layers": false,
+  "triangles": 488806,
+  "internal_iteration_monitor": {
+    "radius_mm": 46.4,
+    "original_equal_area_count": 8192,
+    "actual_fluid_point_count": 7864,
+    "divider_margin_mm": 0.01,
+    "write_every_iterations": 20
+  },
+  "model_assumptions": {
+    "isothermal_constant_properties": true,
+    "gravity_included": false,
+    "smooth_walls": true
+  },
+  "stage": "mesh_preparation_only_no_flow_solve_authorized_in_this_job",
+  "root_refinement": "same distances and levels applied to actual roots of each existing model",
+  "root_guide_edge_count": 18,
+  "flow_solver_executed": false,
+  "proposed_pilot": "200 iterations per model:100 upwind then100 linearUpwind; not executed",
+  "revision": "R07_internal_vertex_quality_optimization",
+  "source_case": "/workspace/scratch/tbm-seminar-prep-20261125/C02",
+  "CAD_geometry_changed": false,
+  "boundary_mesh_exactly_unchanged": true,
+  "topology_files_sha256_equal": {
+    "faces": true,
+    "owner": true,
+    "neighbour": true,
+    "boundary": true,
+    "cellZones": true,
+    "faceZones": true,
+    "pointZones": true
+  },
+  "changed_interior_points": [
+    {
+      "original_bad_cell": 54870,
+      "interior_point_id": 87103,
+      "original_position_m": [
+        0.022282304047736633,
+        -0.023079046638628344,
+        0.03146595835153188
+      ],
+      "new_position_m": [
+        0.022281058563974564,
+        -0.0230797654860292,
+        0.03146651752815674
+      ],
+      "displacement_um": [
+        -1.2454837620696073,
+        -0.7188474008583547,
+        0.559176624857947
+      ],
+      "affected_cells": [
+        25697,
+        25698,
+        25702,
+        25703,
+        54866,
+        54867,
+        54869,
+        54870
+      ],
+      "local_before_min_determinant": 0.0004301856710038459,
+      "local_after_min_determinant": 0.0010999999999999595,
+      "local_after_max_nonorth_deg": 61.4524248466295,
+      "optimizer_success": true
+    },
+    {
+      "original_bad_cell": 72214,
+      "interior_point_id": 41931,
+      "original_position_m": [
+        0.0220628874331784,
+        -0.03596196386122578,
+        0.015484494348592384
+      ],
+      "new_position_m": [
+        0.02206185900354832,
+        -0.03596217181258705,
+        0.015484423004734191
+      ],
+      "displacement_um": [
+        -1.0284296300764506,
+        -0.20795136126657116,
+        -0.07134385819189687
+      ],
+      "affected_cells": [
+        20557,
+        72209,
+        72210,
+        72211,
+        72212,
+        72213,
+        72214,
+        72215
+      ],
+      "local_before_min_determinant": 0.0007799968255686586,
+      "local_after_min_determinant": 0.0010999999996308054,
+      "local_after_max_nonorth_deg": 63.18854752738248,
+      "optimizer_success": false
+    },
+    {
+      "original_bad_cell": 657635,
+      "interior_point_id": 762523,
+      "original_position_m": [
+        -0.022282274479987412,
+        -0.0230790438715636,
+        0.031465961127118254
+      ],
+      "new_position_m": [
+        -0.022281040016371413,
+        -0.023079755818438484,
+        0.03146651496779644
+      ],
+      "displacement_um": [
+        1.23446361599729,
+        -0.7119468748838047,
+        0.5538406781874055
+      ],
+      "affected_cells": [
+        630999,
+        631000,
+        631004,
+        631005,
+        657631,
+        657632,
+        657634,
+        657635
+      ],
+      "local_before_min_determinant": 0.0004344336442212382,
+      "local_after_min_determinant": 0.0011000000000012011,
+      "local_after_max_nonorth_deg": 61.455084667557244,
+      "optimizer_success": true
+    },
+    {
+      "original_bad_cell": 670083,
+      "interior_point_id": 722760,
+      "original_position_m": [
+        -0.022062807964326383,
+        -0.035961737038428934,
+        0.01548441025068336
+      ],
+      "new_position_m": [
+        -0.022061786897459076,
+        -0.03596193709183642,
+        0.01548434081274284
+      ],
+      "displacement_um": [
+        1.0210668673072476,
+        -0.20005340748292633,
+        -0.06943794052126628
+      ],
+      "affected_cells": [
+        625861,
+        670078,
+        670079,
+        670080,
+        670081,
+        670082,
+        670083,
+        670084
+      ],
+      "local_before_min_determinant": 0.0007813087744012265,
+      "local_after_min_determinant": 0.0010999999999987899,
+      "local_after_max_nonorth_deg": 63.28303044851329,
+      "optimizer_success": true
+    },
+    {
+      "original_bad_cell": 3182217,
+      "interior_point_id": 3543846,
+      "original_position_m": [
+        0.024258745406306237,
+        0.031226164341451187,
+        0.026971346001299506
+      ],
+      "new_position_m": [
+        0.02426177198722003,
+        0.031224542454367146,
+        0.02696984195418371
+      ],
+      "displacement_um": [
+        3.0265809137940165,
+        -1.6218870840434776,
+        -1.504047115798025
+      ],
+      "affected_cells": [
+        3137844,
+        3182213,
+        3182214,
+        3182215,
+        3182216,
+        3182217,
+        3182218,
+        3182219
+      ],
+      "local_before_min_determinant": 4.512365301824183e-05,
+      "local_after_min_determinant": 0.0010999999999974964,
+      "local_after_max_nonorth_deg": 60.25720646995609,
+      "optimizer_success": true
+    },
+    {
+      "original_bad_cell": 4440527,
+      "interior_point_id": 4942781,
+      "original_position_m": [
+        -0.02425883552846314,
+        0.031226069051232857,
+        0.02697127434466049
+      ],
+      "new_position_m": [
+        -0.024261841529846326,
+        0.031224439717623367,
+        0.02696978311580678
+      ],
+      "displacement_um": [
+        -3.0060013831850902,
+        -1.6293336094913198,
+        -1.4912288537101903
+      ],
+      "affected_cells": [
+        4394618,
+        4440523,
+        4440524,
+        4440525,
+        4440526,
+        4440527,
+        4440528,
+        4440529
+      ],
+      "local_before_min_determinant": 4.2420207591343445e-05,
+      "local_after_min_determinant": 0.0010999999999965586,
+      "local_after_max_nonorth_deg": 59.95122178123026,
+      "optimizer_success": true
+    }
+  ],
+  "repair_rule": "Only one strictly internal vertex per determinant<.001 cell. Minimize displacement, local determinants>=.0011, positive pyramids, affected internal nonorthogonality<=65deg. No boundary vertices moved.",
+  "pilot": {
+    "iterations": 20,
+    "initialization": "identical original uniform initial fields; no potentialFoam initialization",
+    "convection_U": "bounded Gauss upwind for startup only",
+    "startTime": 0,
+    "endTime": 20,
+    "compress_output": true,
+    "parallel_ranks": 4,
+    "functions": "36 patch flux and mean pressure each iteration, 7864 internal U probes each iteration, yPlus at writeTime",
+    "purpose": "startup stability and runtime/memory measurement, NOT design improvement/convergence validation"
+  },
+  "metadata_capture_stage": "mesh_quality_check_before_flow_trial"
+}

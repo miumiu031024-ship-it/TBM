@@ -1,0 +1,599 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : simpleFoam -parallel
+Date   : Nov 25 2026
+Time   : 13:51:26
+Host   : 233e724de3c6
+PID    : 20390
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-mesh-repair-20261125/B00_R07
+nProcs : 4
+Hosts  :
+(
+    (233e724de3c6 4)
+)
+Pstream initialized with:
+    floatTransfer      : false
+    maxCommsSize       : 0
+    nProcsSimpleSum    : 0
+    nonBlockingExchange: 0 (tuning: 0)
+    exchange algorithm : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+--> FOAM Warning : 
+    From virtual void Foam::Time::readDict()
+    in file db/Time/TimeIO.C at line 403
+    Reading "system/controlDict" at line 2 to 80
+    Disabled output compression for non-ascii format (inefficient/ineffective)
+Create mesh for time = 0
+
+
+SIMPLE: no convergence criteria found. Calculations will run for 20 steps.
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+Selecting patchDistMethod meshWave
+RAS
+{
+    RASModel        kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.85;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.856;
+    gamma1          0.55555556;
+    gamma2          0.44;
+    beta1           0.075;
+    beta2           0.0828;
+    betaStar        0.09;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+    decayControl    false;
+    kInf            0;
+    omegaInf        0;
+}
+
+No MRF models present
+
+No finite volume options present
+
+Starting time loop
+
+surfaceFieldValue inlet01Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet01Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet02Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet02Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet03Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet03Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet04Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet04Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet05Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet05Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet06Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet06Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet07Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet07Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet08Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet08Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet09Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet09Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet10Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet10Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet11Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet11Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet12Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet12Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet13Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet13Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet14Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet14Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet15Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet15Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet16Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet16Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet17Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet17Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue inlet18Flux:
+    operation     = sum
+
+
+surfaceFieldValue inlet18Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet01Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet01Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet02Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet02Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet03Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet03Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet04Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet04Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet05Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet05Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet06Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet06Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet07Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet07Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet08Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet08Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet09Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet09Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet10Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet10Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet11Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet11Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet12Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet12Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet13Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet13Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet14Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet14Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet15Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet15Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet16Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet16Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet17Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet17Pressure:
+    operation     = areaAverage
+
+
+surfaceFieldValue outlet18Flux:
+    operation     = sum
+
+
+surfaceFieldValue outlet18Pressure:
+    operation     = areaAverage
+
+
+Time = 1
+
+smoothSolver:  Solving for Ux, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Uy, Initial residual = 0, Final residual = 0, No Iterations 0
+smoothSolver:  Solving for Uz, Initial residual = 1, Final residual = 0.0011769414, No Iterations 1
+GAMG:  Solving for p, Initial residual = 1, Final residual = 0.0082346764, No Iterations 11
+time step continuity errors : sum local = 0.06007576, global = -0.0085495347, cumulative = -0.0085495347
+smoothSolver:  Solving for omega, Initial residual = 0.014399301, Final residual = 0.0002250033, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 1, Final residual = 0.030596521, No Iterations 1
+ExecutionTime = 64.94 s  ClockTime = 68 s
+
+Time = 2
+
+smoothSolver:  Solving for Ux, Initial residual = 0.13275587, Final residual = 0.0044106036, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.25497095, Final residual = 0.0091144994, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.12545178, Final residual = 0.0042620167, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.15714744, Final residual = 0.00096294685, No Iterations 9
+time step continuity errors : sum local = 0.1560158, global = -0.014828983, cumulative = -0.023378517
+smoothSolver:  Solving for omega, Initial residual = 0.010066468, Final residual = 0.00015824753, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.55993825, Final residual = 0.016760865, No Iterations 1
+ExecutionTime = 87.3 s  ClockTime = 91 s
+
+Time = 3
+
+smoothSolver:  Solving for Ux, Initial residual = 0.18584185, Final residual = 0.0062700535, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.34654083, Final residual = 0.012361193, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.20160192, Final residual = 0.0067840288, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.086151409, Final residual = 0.00073871631, No Iterations 7
+time step continuity errors : sum local = 0.39893409, global = -0.033659024, cumulative = -0.057037542
+smoothSolver:  Solving for omega, Initial residual = 0.0065378749, Final residual = 0.00012356634, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.32277272, Final residual = 0.0095220312, No Iterations 1
+ExecutionTime = 107.09 s  ClockTime = 111 s
+
+Time = 4
+
+smoothSolver:  Solving for Ux, Initial residual = 0.16046117, Final residual = 0.0054306395, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.2940675, Final residual = 0.010470502, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.17222087, Final residual = 0.0057672579, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.071299183, Final residual = 0.00042993974, No Iterations 4
+time step continuity errors : sum local = 0.32394569, global = -0.044373985, cumulative = -0.10141153
+smoothSolver:  Solving for omega, Initial residual = 0.0055732248, Final residual = 0.00011434457, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.20056596, Final residual = 0.0059182283, No Iterations 1
+ExecutionTime = 125.41 s  ClockTime = 130 s
+
+Time = 5
+
+smoothSolver:  Solving for Ux, Initial residual = 0.12096914, Final residual = 0.0041096346, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.22686373, Final residual = 0.0080657371, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.13021288, Final residual = 0.0043476562, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.068518404, Final residual = 0.00036555002, No Iterations 7
+time step continuity errors : sum local = 0.2835928, global = 0.019181813, cumulative = -0.082229714
+smoothSolver:  Solving for omega, Initial residual = 0.0046522096, Final residual = 0.00010369269, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.15505581, Final residual = 0.0045492959, No Iterations 1
+ExecutionTime = 145.66 s  ClockTime = 152 s
+
+Time = 6
+
+smoothSolver:  Solving for Ux, Initial residual = 0.084658964, Final residual = 0.0028706891, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.15821173, Final residual = 0.005617021, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.089855435, Final residual = 0.0029915441, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.062358563, Final residual = 0.00032943749, No Iterations 8
+time step continuity errors : sum local = 0.21654168, global = 0.017062867, cumulative = -0.065166846
+smoothSolver:  Solving for omega, Initial residual = 0.0041741263, Final residual = 9.5281687e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.13175193, Final residual = 0.0038401644, No Iterations 1
+ExecutionTime = 165.09 s  ClockTime = 172 s
+
+Time = 7
+
+smoothSolver:  Solving for Ux, Initial residual = 0.053896098, Final residual = 0.001771298, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.091443529, Final residual = 0.0032400308, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.052464458, Final residual = 0.0017417369, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.059908155, Final residual = 0.00052966435, No Iterations 8
+time step continuity errors : sum local = 0.24120075, global = 0.019255541, cumulative = -0.045911306
+smoothSolver:  Solving for omega, Initial residual = 0.0038189762, Final residual = 8.7480267e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.11728394, Final residual = 0.0033851032, No Iterations 1
+ExecutionTime = 185.67 s  ClockTime = 193 s
+
+Time = 8
+
+smoothSolver:  Solving for Ux, Initial residual = 0.030759587, Final residual = 0.00091096445, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.027387601, Final residual = 0.00096086372, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.017685155, Final residual = 0.00058117915, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.17165252, Final residual = 0.00094327755, No Iterations 8
+time step continuity errors : sum local = 0.21219147, global = 0.01722913, cumulative = -0.028682175
+smoothSolver:  Solving for omega, Initial residual = 0.0034296857, Final residual = 7.9583932e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.10467766, Final residual = 0.0030229234, No Iterations 1
+ExecutionTime = 204.95 s  ClockTime = 213 s
+
+Time = 9
+
+smoothSolver:  Solving for Ux, Initial residual = 0.037741488, Final residual = 0.0011305496, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.036401853, Final residual = 0.0012647275, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.014996958, Final residual = 0.00049550538, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.36269973, Final residual = 0.0020292818, No Iterations 7
+time step continuity errors : sum local = 0.31410712, global = 0.024069674, cumulative = -0.0046125015
+smoothSolver:  Solving for omega, Initial residual = 0.0029813828, Final residual = 7.1155517e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.092932619, Final residual = 0.0026950471, No Iterations 1
+ExecutionTime = 223.9 s  ClockTime = 232 s
+
+Time = 10
+
+smoothSolver:  Solving for Ux, Initial residual = 0.057075758, Final residual = 0.0018057606, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.088216142, Final residual = 0.0031079969, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.042380696, Final residual = 0.0014082862, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.23329283, Final residual = 0.0021476333, No Iterations 5
+time step continuity errors : sum local = 0.64734521, global = 0.04598764, cumulative = 0.041375139
+smoothSolver:  Solving for omega, Initial residual = 0.0027176301, Final residual = 6.5226837e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.081945158, Final residual = 0.0023898061, No Iterations 1
+ExecutionTime = 240.34 s  ClockTime = 249 s
+
+Time = 11
+
+smoothSolver:  Solving for Ux, Initial residual = 0.066545572, Final residual = 0.0021568764, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.12379761, Final residual = 0.004369628, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.061700341, Final residual = 0.0020479117, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.19793967, Final residual = 0.0018054121, No Iterations 3
+time step continuity errors : sum local = 0.6717243, global = 0.028275915, cumulative = 0.069651053
+smoothSolver:  Solving for omega, Initial residual = 0.0026513145, Final residual = 6.1508105e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.072550545, Final residual = 0.0021319859, No Iterations 1
+ExecutionTime = 255.7 s  ClockTime = 265 s
+
+Time = 12
+
+smoothSolver:  Solving for Ux, Initial residual = 0.066074033, Final residual = 0.0021732744, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.13615684, Final residual = 0.0048087367, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.06953477, Final residual = 0.0023062093, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.18199154, Final residual = 0.0018019541, No Iterations 5
+time step continuity errors : sum local = 0.66845144, global = -0.035248378, cumulative = 0.034402676
+smoothSolver:  Solving for omega, Initial residual = 0.0025476479, Final residual = 5.8063033e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.064587256, Final residual = 0.0019154893, No Iterations 1
+ExecutionTime = 271.58 s  ClockTime = 281 s
+
+Time = 13
+
+smoothSolver:  Solving for Ux, Initial residual = 0.057526415, Final residual = 0.0018803164, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.11610274, Final residual = 0.0040963958, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.061579017, Final residual = 0.0020395089, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.17082045, Final residual = 0.0014571616, No Iterations 6
+time step continuity errors : sum local = 0.45706913, global = -0.030126712, cumulative = 0.0042759639
+smoothSolver:  Solving for omega, Initial residual = 0.0023292396, Final residual = 5.3837951e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.058950038, Final residual = 0.0017514866, No Iterations 1
+ExecutionTime = 288.41 s  ClockTime = 299 s
+
+Time = 14
+
+smoothSolver:  Solving for Ux, Initial residual = 0.043591855, Final residual = 0.0013622116, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.068941427, Final residual = 0.0024231333, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.03876795, Final residual = 0.0012800505, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.17705074, Final residual = 0.001086997, No Iterations 7
+time step continuity errors : sum local = 0.23273154, global = -0.017337694, cumulative = -0.01306173
+smoothSolver:  Solving for omega, Initial residual = 0.0021129114, Final residual = 4.9565393e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.054127331, Final residual = 0.0016111711, No Iterations 1
+ExecutionTime = 307.73 s  ClockTime = 318 s
+
+Time = 15
+
+smoothSolver:  Solving for Ux, Initial residual = 0.032895867, Final residual = 0.00095956936, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.01608394, Final residual = 0.00053485307, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.011162437, Final residual = 0.00035975105, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.28332373, Final residual = 0.0019622655, No Iterations 7
+time step continuity errors : sum local = 0.19762304, global = -0.015291111, cumulative = -0.028352841
+smoothSolver:  Solving for omega, Initial residual = 0.0019071704, Final residual = 4.5282437e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.049520417, Final residual = 0.001480733, No Iterations 1
+ExecutionTime = 325.86 s  ClockTime = 337 s
+
+Time = 16
+
+smoothSolver:  Solving for Ux, Initial residual = 0.034720389, Final residual = 0.001039599, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.033609962, Final residual = 0.001163165, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.01430157, Final residual = 0.00047152319, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.28633083, Final residual = 0.0026199104, No Iterations 6
+time step continuity errors : sum local = 0.28177175, global = -0.020842317, cumulative = -0.049195158
+smoothSolver:  Solving for omega, Initial residual = 0.0017674003, Final residual = 4.1579681e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.045254958, Final residual = 0.0013616778, No Iterations 1
+ExecutionTime = 343.61 s  ClockTime = 355 s
+
+Time = 17
+
+smoothSolver:  Solving for Ux, Initial residual = 0.037665473, Final residual = 0.0011744368, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.056143802, Final residual = 0.0019695871, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.027764521, Final residual = 0.00092079399, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.21120266, Final residual = 0.0014940801, No Iterations 5
+time step continuity errors : sum local = 0.25339902, global = -0.019890293, cumulative = -0.069085451
+smoothSolver:  Solving for omega, Initial residual = 0.0017091183, Final residual = 3.8720349e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.041790434, Final residual = 0.0012626769, No Iterations 1
+ExecutionTime = 361.51 s  ClockTime = 374 s
+
+Time = 18
+
+smoothSolver:  Solving for Ux, Initial residual = 0.03506227, Final residual = 0.0011143335, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.060957793, Final residual = 0.0021431893, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.031723797, Final residual = 0.0010506849, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.18454214, Final residual = 0.0015541551, No Iterations 4
+time step continuity errors : sum local = 0.30780084, global = -0.0052693639, cumulative = -0.074354815
+smoothSolver:  Solving for omega, Initial residual = 0.0016717014, Final residual = 3.6666713e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.039229121, Final residual = 0.001184368, No Iterations 1
+ExecutionTime = 379.05 s  ClockTime = 392 s
+
+Time = 19
+
+smoothSolver:  Solving for Ux, Initial residual = 0.029268674, Final residual = 0.00094600972, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.053368824, Final residual = 0.0018766105, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.02875981, Final residual = 0.00095068536, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.16957243, Final residual = 0.00086917113, No Iterations 6
+time step continuity errors : sum local = 0.16716654, global = 0.009440219, cumulative = -0.064914596
+smoothSolver:  Solving for omega, Initial residual = 0.0016210198, Final residual = 3.4847274e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.037233846, Final residual = 0.0011219438, No Iterations 1
+ExecutionTime = 399.25 s  ClockTime = 413 s
+
+Time = 20
+
+smoothSolver:  Solving for Ux, Initial residual = 0.023251225, Final residual = 0.00075249414, No Iterations 1
+smoothSolver:  Solving for Uy, Initial residual = 0.038309754, Final residual = 0.0013457182, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.021488803, Final residual = 0.00070834802, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.1597829, Final residual = 0.0013817652, No Iterations 6
+time step continuity errors : sum local = 0.2222927, global = 0.014001792, cumulative = -0.050912805
+smoothSolver:  Solving for omega, Initial residual = 0.0015423968, Final residual = 3.3220379e-05, No Iterations 1
+smoothSolver:  Solving for k, Initial residual = 0.035518567, Final residual = 0.0010689376, No Iterations 1
+ExecutionTime = 417.9 s  ClockTime = 432 s
+
+yPlus wallYPlus write:
+    writing field yPlus
+    patch walls y+ : min = 0.36257108, max = 234.57508, average = 24.92704
+End
+
+Finalising parallel run

@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : /workspace/scratch/tbm-mesh-repair-20261125/bin/internalFaceAgglomerate -overwrite repairFaces
+Date   : Nov 25 2026
+Time   : 13:38:04
+Host   : 233e724de3c6
+PID    : 4571
+I/O    : uncollated
+Case   : /workspace/scratch/tbm-mesh-repair-20261125/C01_R03
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Read 6 faces to remove
+
+Original faces to be removed:6
+New faces to be removed:6
+
+Writing new faces to be removed to faceSet "constant/polyMesh/sets/compatibleRemoves"
+--> FOAM Warning : 
+    From void Foam::removeFaces::setRefinement(const Foam::labelList&, const Foam::labelList&, const Foam::labelList&, Foam::polyTopoChange&) const
+    in file polyTopoChange/polyTopoChange/removeFaces.C at line 974
+    not merging faces 14710774 and 14710778 across edge 4305551
+--> FOAM Warning : 
+    From void Foam::removeFaces::setRefinement(const Foam::labelList&, const Foam::labelList&, const Foam::labelList&, Foam::polyTopoChange&) const
+    in file polyTopoChange/polyTopoChange/removeFaces.C at line 974
+    not merging faces 14822835 and 14822839 across edge 6240602
+--> FOAM Warning : 
+    From void Foam::removeFaces::setRefinement(const Foam::labelList&, const Foam::labelList&, const Foam::labelList&, Foam::polyTopoChange&) const
+    in file polyTopoChange/polyTopoChange/removeFaces.C at line 974
+    not merging faces 15111546 and 15111548 across edge 10321321
+--> FOAM Warning : 
+    From void Foam::removeFaces::setRefinement(const Foam::labelList&, const Foam::labelList&, const Foam::labelList&, Foam::polyTopoChange&) const
+    in file polyTopoChange/polyTopoChange/removeFaces.C at line 974
+    not merging faces 15225452 and 15225454 across edge 12312632
+Writing mesh to time 0
+End
+

@@ -1,0 +1,17 @@
+{
+  "constant/polyMesh/faces": "2826d9fe6a4e6cd09d97b975234c0559fa4ca75c7b311ee8be60587405c640e4",
+  "constant/polyMesh/points": "6d0265e2e648f2414ecabf6b8ce773f405aa8a95de5dbd465636cecb8c678d35",
+  "constant/polyMesh/cellZones": "291a77f7912e77c16759b661ac08a169aa27783c0b654f1ca04935ff260dd4f4",
+  "constant/polyMesh/neighbour": "c1a07027fdcc63dd5806d589cbb1ecc1a96cdaa564b136c537e52ec0d36e9d80",
+  "constant/polyMesh/faceZones": "68d5715ea9b4d426cc6d425639c036a4b8f0fd4b0e2c826b1d0cb8c22149f0ec",
+  "constant/polyMesh/pointZones": "bf8707b8f7790afbe530d4d8bc58ea13ccfa9214923baa41092bed1f719caf60",
+  "constant/polyMesh/owner": "d71e73dbcfb73a0830a3783ac2af09ce77d9d9fb2082a08b43e02c7632595d31",
+  "constant/polyMesh/boundary": "383390d8eb1b057d01b7e32777557875b5f1ace96a21f1a1cb141d98d2f5056d",
+  "constant/polyMesh/sets/region2": "18bc7fea4e00e735cd414bd4fdb74d4a269ec740556d11bfbb50f71b551b57c9",
+  "constant/polyMesh/sets/region1": "035a0af1c49448cadd514d628a101228b287f2a5060bb70891d12f1cf9c64528",
+  "constant/polyMesh/sets/warpedFaces": "b21fca977541588408994daaabfc1d0448a3b1ea224d50d62d8229174bf21440",
+  "constant/polyMesh/sets/concaveFaces": "6a43222ecf80fe75cf89c172f540759d7663675835c361779a819f543db06dbb",
+  "constant/polyMesh/sets/concaveCells": "35699c1d7902a5230c38e824d948f3bcf8d389d32154fd665fbd26209c3bc399",
+  "constant/polyMesh/sets/region0": "3b2791e8cb189e52fdb5c92f870eb65bb0f16fdd8f9507e39f91f5f040b8c4a1",
+  "constant/polyMesh/sets/underdeterminedCells": "03a9bf4bef5e786a42ef9d755a2490377e2632d7d3e4b388de1f12dbf2b08490"
+}
