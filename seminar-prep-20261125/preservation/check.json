@@ -1,0 +1,7 @@
+{
+  "pre_existing_files_checked": 876,
+  "all_protected_hashes_unchanged": true,
+  "scope": "Pre-existing tracked repository files and the previous review folder; large previous native mesh/field files were not accessed for writing. No claim that every native file was hashed.",
+  "CAD_geometry_modified": false,
+  "old_mesh_or_result_overwritten": false
+}

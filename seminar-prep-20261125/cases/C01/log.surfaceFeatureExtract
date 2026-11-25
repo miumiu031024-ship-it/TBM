@@ -1,0 +1,1476 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : surfaceFeatureExtract
+Date   : Nov 25 2026
+Time   : 05:49:19
+Host   : cc13b3094a4d
+PID    : 1920
+I/O    : uncollated
+Case   : /work/C01
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Note: Feature line extraction only valid on closed manifold surfaces
+
+Reading surfaceFeatureExtractDict
+
+Surfaces     : walls.stl
+Output       : walls
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 484496 in 1 region(s)
+Vertices     : 244414
+Bounding Box : (-0.047899999 -0.047899999 -0.0099999998) (0.047899999 0.047899999 0.047899999)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 88
+    edges  : 14079
+    of which
+        region edges   : 4392
+        external edges : 5223
+        internal edges : 4464
+
+Final Feature set:
+    points : 13999
+    of which
+        convex             : 16
+        concave            : 0
+        mixed              : 72
+        non-feature        : 13911
+    edges  : 14079
+    of which
+        external edges     : 5223
+        internal edges     : 4464
+        flat edges         : 0
+        open edges         : 4392
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/walls.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/walls.eMesh"
+Surfaces     : inlet01.stl
+Output       : inlet01
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.047723435 -0.0055435291 -0.0099999998) (-0.044723433 -0.0025445237 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet01.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet01.eMesh"
+Surfaces     : inlet02.stl
+Output       : inlet02
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.046318658 -0.013509179 -0.0099999998) (-0.043319259 -0.010509228 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet02.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet02.eMesh"
+Surfaces     : inlet03.stl
+Output       : inlet03
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.043552581 -0.021109333 -0.0099999998) (-0.04055278 -0.01810964 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet03.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet03.eMesh"
+Surfaces     : inlet04.stl
+Output       : inlet04
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.0395086 -0.028113727 -0.0099999998) (-0.036508709 -0.025114167 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet04.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet04.eMesh"
+Surfaces     : inlet05.stl
+Output       : inlet05
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.034309361 -0.034309749 -0.0099999998) (-0.031310149 -0.031309761 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet05.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet05.eMesh"
+Surfaces     : inlet06.stl
+Output       : inlet06
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.028113941 -0.039508261 -0.0099999998) (-0.025113953 -0.036509048 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet06.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet06.eMesh"
+Surfaces     : inlet07.stl
+Output       : inlet07
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.021109266 -0.043552626 -0.0099999998) (-0.018109709 -0.040552735 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet07.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet07.eMesh"
+Surfaces     : inlet08.stl
+Output       : inlet08
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.01350905 -0.046318859 -0.0099999998) (-0.010509357 -0.043319058 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet08.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet08.eMesh"
+Surfaces     : inlet09.stl
+Output       : inlet09
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.0055440017 -0.047723133 -0.0099999998) (-0.002544051 -0.044723734 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet09.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet09.eMesh"
+Surfaces     : inlet10.stl
+Output       : inlet10
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.0025445237 -0.047723435 -0.0099999998) (0.0055435291 -0.044723433 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet10.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet10.eMesh"
+Surfaces     : inlet11.stl
+Output       : inlet11
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.010509228 -0.046318658 -0.0099999998) (0.013509179 -0.043319259 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet11.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet11.eMesh"
+Surfaces     : inlet12.stl
+Output       : inlet12
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.01810964 -0.043552581 -0.0099999998) (0.021109333 -0.04055278 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet12.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet12.eMesh"
+Surfaces     : inlet13.stl
+Output       : inlet13
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.025114167 -0.0395086 -0.0099999998) (0.028113727 -0.036508709 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet13.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet13.eMesh"
+Surfaces     : inlet14.stl
+Output       : inlet14
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.031309761 -0.034309361 -0.0099999998) (0.034309749 -0.031310149 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet14.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet14.eMesh"
+Surfaces     : inlet15.stl
+Output       : inlet15
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.036509048 -0.028113941 -0.0099999998) (0.039508261 -0.025113953 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet15.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet15.eMesh"
+Surfaces     : inlet16.stl
+Output       : inlet16
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.040552735 -0.021109266 -0.0099999998) (0.043552626 -0.018109709 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet16.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet16.eMesh"
+Surfaces     : inlet17.stl
+Output       : inlet17
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.043319058 -0.01350905 -0.0099999998) (0.046318859 -0.010509357 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet17.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet17.eMesh"
+Surfaces     : inlet18.stl
+Output       : inlet18
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.044723734 -0.0055440017 -0.0099999998) (0.047723133 -0.002544051 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/inlet18.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/inlet18.eMesh"
+Surfaces     : outlet01.stl
+Output       : outlet01
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.047723133 0.002544051 -0.0099999998) (-0.044723734 0.0055440017 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet01.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet01.eMesh"
+Surfaces     : outlet02.stl
+Output       : outlet02
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.046318859 0.010509357 -0.0099999998) (-0.043319058 0.01350905 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet02.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet02.eMesh"
+Surfaces     : outlet03.stl
+Output       : outlet03
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.043552626 0.018109709 -0.0099999998) (-0.040552735 0.021109266 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet03.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet03.eMesh"
+Surfaces     : outlet04.stl
+Output       : outlet04
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.039508261 0.025113953 -0.0099999998) (-0.036509048 0.028113941 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet04.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet04.eMesh"
+Surfaces     : outlet05.stl
+Output       : outlet05
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.034309749 0.031310149 -0.0099999998) (-0.031309761 0.034309361 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet05.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet05.eMesh"
+Surfaces     : outlet06.stl
+Output       : outlet06
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.028113727 0.036508709 -0.0099999998) (-0.025114167 0.0395086 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet06.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet06.eMesh"
+Surfaces     : outlet07.stl
+Output       : outlet07
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.021109333 0.04055278 -0.0099999998) (-0.01810964 0.043552581 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet07.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet07.eMesh"
+Surfaces     : outlet08.stl
+Output       : outlet08
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.013509179 0.043319259 -0.0099999998) (-0.010509228 0.046318658 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet08.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet08.eMesh"
+Surfaces     : outlet09.stl
+Output       : outlet09
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (-0.0055435291 0.044723433 -0.0099999998) (-0.0025445237 0.047723435 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet09.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet09.eMesh"
+Surfaces     : outlet10.stl
+Output       : outlet10
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.002544051 0.044723734 -0.0099999998) (0.0055440017 0.047723133 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet10.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet10.eMesh"
+Surfaces     : outlet11.stl
+Output       : outlet11
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.010509357 0.043319058 -0.0099999998) (0.01350905 0.046318859 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet11.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet11.eMesh"
+Surfaces     : outlet12.stl
+Output       : outlet12
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.018109709 0.040552735 -0.0099999998) (0.021109266 0.043552626 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet12.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet12.eMesh"
+Surfaces     : outlet13.stl
+Output       : outlet13
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.025113953 0.036509048 -0.0099999998) (0.028113941 0.039508261 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet13.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet13.eMesh"
+Surfaces     : outlet14.stl
+Output       : outlet14
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.031310149 0.031309761 -0.0099999998) (0.034309361 0.034309749 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet14.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet14.eMesh"
+Surfaces     : outlet15.stl
+Output       : outlet15
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.036508709 0.025114167 -0.0099999998) (0.0395086 0.028113727 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet15.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet15.eMesh"
+Surfaces     : outlet16.stl
+Output       : outlet16
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.04055278 0.01810964 -0.0099999998) (0.043552581 0.021109333 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet16.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet16.eMesh"
+Surfaces     : outlet17.stl
+Output       : outlet17
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.043319259 0.010509228 -0.0099999998) (0.046318658 0.013509179 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet17.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet17.eMesh"
+Surfaces     : outlet18.stl
+Output       : outlet18
+Load options : offset
+Write options: writeObj=no writeVTK=off
+
+Statistics:
+Triangles    : 120 in 1 region(s)
+Vertices     : 122
+Bounding Box : (0.044723433 0.0025445237 -0.0099999998) (0.047723435 0.0055435291 -0.0099999998)
+
+Constructing feature set from included angle 150
+Selecting edges based purely on geometric tests: no
+
+Initial Feature set:
+    points : 0
+    edges  : 122
+    of which
+        region edges   : 122
+        external edges : 0
+        internal edges : 0
+
+Final Feature set:
+    points : 122
+    of which
+        convex             : 0
+        concave            : 0
+        mixed              : 0
+        non-feature        : 122
+    edges  : 122
+    of which
+        external edges     : 0
+        internal edges     : 0
+        flat edges         : 0
+        open edges         : 122
+        multiply connected : 0
+
+Writing extendedFeatureEdgeMesh to "/work/C01/constant/extendedFeatureEdgeMesh/outlet18.extendedFeatureEdgeMesh"
+
+Writing featureEdgeMesh to "/work/C01/constant/triSurface/outlet18.eMesh"
+ExecutionTime = 2.15 s  ClockTime = 3 s
+
+End
+

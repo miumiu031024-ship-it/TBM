@@ -1,0 +1,4 @@
+model,actual_cells,regions,standard_check_passed,additional_check_passed,additional_failed_checks,concave_cells,small_determinant_cells,min_cell_determinant,max_nonorthogonality_deg,max_skewness,mesh_volume_error_percent,mesh_generation_and_checks_wall_minutes,sampled_container_memory_current_peak_GiB
+B00,5037651,3,True,False,1,68027,0,0.0048215023,59.166884,3.0217181,-0.0407527999839008,25.9,8.557182312011719
+C01,4997954,3,True,False,2,71398,6,4.2420098e-05,64.999661,3.1612367,-0.04091756038315797,28.383333333333333,9.989513397216797
+C02,4997775,3,True,False,2,71425,6,4.2420208e-05,64.999348,3.2290273,-0.041025662734217594,28.233333333333334,11.151355743408203

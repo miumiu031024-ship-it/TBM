@@ -1,0 +1,195 @@
+[
+  {
+    "model": "B00",
+    "small_determinant_cell_count": 0,
+    "flow_solver_executed": false
+  },
+  {
+    "model": "C01",
+    "small_determinant_cell_count": 6,
+    "flow_solver_executed": false,
+    "native_cell_ids_unordered": [
+      3804505,
+      1906963,
+      3178768,
+      1288171,
+      1892001,
+      1309214
+    ],
+    "subset_ID_warning": "VTK cellID is the exported subset index, NOT an asserted mapping to native global IDs. Native cellSet is retained separately.",
+    "representative_points": [
+      {
+        "model": "C01",
+        "VTK_subset_index": 0,
+        "x_mm": 22.282239980995655,
+        "y_mm": 23.072110023349524,
+        "z_mm": 31.463721301406622,
+        "radius_mm": 44.930905150384135,
+        "distance_to_nearest_sphere_mm": 0.030905150384135993,
+        "distance_to_nearest_divider_face_mm": 0.014955467520235799,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C01",
+        "VTK_subset_index": 1,
+        "x_mm": 22.07024209201336,
+        "y_mm": 35.98856646567583,
+        "z_mm": 15.472920145839453,
+        "radius_mm": 44.96313779190649,
+        "distance_to_nearest_sphere_mm": 0.06313779190649171,
+        "distance_to_nearest_divider_face_mm": 0.0014978206362571411,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C01",
+        "VTK_subset_index": 2,
+        "x_mm": -22.28222438134253,
+        "y_mm": 23.072104202583432,
+        "z_mm": 31.46371804177761,
+        "radius_mm": 44.93089214257653,
+        "distance_to_nearest_sphere_mm": 0.030892142576533388,
+        "distance_to_nearest_divider_face_mm": 0.0149497777941201,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C01",
+        "VTK_subset_index": 3,
+        "x_mm": -22.07002113573253,
+        "y_mm": 35.98812082782388,
+        "z_mm": 15.472720144316554,
+        "radius_mm": 44.9626038204425,
+        "distance_to_nearest_sphere_mm": 0.06260382044250434,
+        "distance_to_nearest_divider_face_mm": 0.0017051321275757259,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C01",
+        "VTK_subset_index": 4,
+        "x_mm": 24.25941452383995,
+        "y_mm": -31.22802940197289,
+        "z_mm": 26.97603008709848,
+        "radius_mm": 47.8687289640118,
+        "distance_to_nearest_sphere_mm": 0.03127103598819758,
+        "distance_to_nearest_divider_face_mm": 0.014249839212635673,
+        "region_inferred_from_CAD_planes": "Water_Xplus",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C01",
+        "VTK_subset_index": 5,
+        "x_mm": -24.259421741589904,
+        "y_mm": -31.228058971464634,
+        "z_mm": 26.97605756111443,
+        "radius_mm": 47.86876739484898,
+        "distance_to_nearest_sphere_mm": 0.031232605151018333,
+        "distance_to_nearest_divider_face_mm": 0.014277928394215822,
+        "region_inferred_from_CAD_planes": "Water_Xminus",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      }
+    ],
+    "all_points_within_0p2mm_of_divider_and_sphere": true,
+    "inferred_region_counts": {
+      "Water_Xminus": 1,
+      "Water_Center": 4,
+      "Water_Xplus": 1
+    }
+  },
+  {
+    "model": "C02",
+    "small_determinant_cell_count": 6,
+    "flow_solver_executed": false,
+    "native_cell_ids_unordered": [
+      657635,
+      72214,
+      670083,
+      3182217,
+      4440527,
+      54870
+    ],
+    "subset_ID_warning": "VTK cellID is the exported subset index, NOT an asserted mapping to native global IDs. Native cellSet is retained separately.",
+    "representative_points": [
+      {
+        "model": "C02",
+        "VTK_subset_index": 0,
+        "x_mm": 22.282239980995655,
+        "y_mm": -23.072110023349524,
+        "z_mm": 31.463721301406622,
+        "radius_mm": 44.930905150384135,
+        "distance_to_nearest_sphere_mm": 0.030905150384135993,
+        "distance_to_nearest_divider_face_mm": 0.014955467520235799,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C02",
+        "VTK_subset_index": 1,
+        "x_mm": 22.070236736908555,
+        "y_mm": -35.98862839862704,
+        "z_mm": 15.472909202799201,
+        "radius_mm": 44.96318096882961,
+        "distance_to_nearest_sphere_mm": 0.063180968829613,
+        "distance_to_nearest_divider_face_mm": 0.0015020940464163246,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C02",
+        "VTK_subset_index": 2,
+        "x_mm": -22.28222438134253,
+        "y_mm": -23.072104202583432,
+        "z_mm": 31.46371804177761,
+        "radius_mm": 44.93089214257653,
+        "distance_to_nearest_sphere_mm": 0.030892142576533388,
+        "distance_to_nearest_divider_face_mm": 0.0149497777941201,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C02",
+        "VTK_subset_index": 3,
+        "x_mm": -22.07002113573253,
+        "y_mm": -35.98812082782388,
+        "z_mm": 15.472720144316554,
+        "radius_mm": 44.9626038204425,
+        "distance_to_nearest_sphere_mm": 0.06260382044250434,
+        "distance_to_nearest_divider_face_mm": 0.0017051321275757259,
+        "region_inferred_from_CAD_planes": "Water_Center",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C02",
+        "VTK_subset_index": 4,
+        "x_mm": 24.25941452383995,
+        "y_mm": 31.22802940197289,
+        "z_mm": 26.97603008709848,
+        "radius_mm": 47.8687289640118,
+        "distance_to_nearest_sphere_mm": 0.03127103598819758,
+        "distance_to_nearest_divider_face_mm": 0.014249839212635673,
+        "region_inferred_from_CAD_planes": "Water_Xplus",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      },
+      {
+        "model": "C02",
+        "VTK_subset_index": 5,
+        "x_mm": -24.259421741589904,
+        "y_mm": 31.228058971464634,
+        "z_mm": 26.97605756111443,
+        "radius_mm": 47.86876739484898,
+        "distance_to_nearest_sphere_mm": 0.031232605151018333,
+        "distance_to_nearest_divider_face_mm": 0.014277928394215822,
+        "region_inferred_from_CAD_planes": "Water_Xminus",
+        "center_definition": "VTK cell representative point; not a solved physical quantity"
+      }
+    ],
+    "all_points_within_0p2mm_of_divider_and_sphere": true,
+    "inferred_region_counts": {
+      "Water_Xminus": 1,
+      "Water_Center": 4,
+      "Water_Xplus": 1
+    }
+  }
+]

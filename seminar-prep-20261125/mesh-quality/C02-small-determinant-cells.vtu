@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<!-- case='C02' region='region0' time='constant' index='0' -->
+<VTKFile type='UnstructuredGrid' version='0.1' byte_order='LittleEndian' header_type='UInt64'>
+  <UnstructuredGrid>
+    <FieldData>
+      <DataArray type='Float32' Name='TimeValue' NumberOfTuples='1' format='binary'>
+BAAAAAAAAAAAAAAA
+      </DataArray>
+    </FieldData>
+    <Piece NumberOfPoints='48' NumberOfCells='6'>
+      <Points>
+        <DataArray type='Float32' Name='Points' NumberOfComponents='3' format='binary'>
+QAIAAAAAAAAspbY8+Ee9vGjOAD13zbQ8W3ETvUF1fTxSWLY8tbK8vNLxAD06vbQ82kwTva2yfTzbaLY8sSW9vEm4AD0OyrQ8UYETvSvtfDw8qbY8/zO9vI/5AD0f0LQ8pFsTvRF2fTwDpbY8luq8vPjSAD1wz7Q8lXoTvbcBfjxhibY8RRC9vHPiAD08obY8wtq8vBAKAT2/arY8zOO8vEbPAD3t1LQ8elwTvUwRfjx70LQ83DUTvTKOfDxry7Q8ap4TvU/kfTwipba890e9vGjOAD2lzLS8yXATvXR0fTxQWLa8rbK8vM3xAD0QvbS8nUwTvVOyfTzWaLa8qiW9vEW4AD02ybS8uoATvT7sfDwxqba8/TO9vJD5AD1vz7S8GlsTvXJ1fTz5pLa8meq8vPvSAD3bzrS8FHoTvQYBfjxRiba8QxC9vHTiAD01oba8wNq8vBAKAT25ara8xuO8vEPPAD0n1bS8JFwTvdMQfjyi0LS8CjUTvbmMfDyFyrS8wZ0TvU3jfTzsocY8Ber/POoS3TxHusY8A87/PAPz3Dx8ocY8m4P/PFAk3TxIocY81/T/PL6z3DwK3MY8y/D/PJoZ3Tzd4sY8+g4APT3W3DxEm8Y8AJ7/PO3J3DxO5MY8LLL/PPBO3TzUoca8Fer/PPgS3Tx3usa80M3/PN3y3Dxdoca86IP/PJAk3Twuoca8C/X/PO2z3Dy43Ma8W/D/PDwZ3TzZ4sa8+w4APT7W3Dwym8a8Gp7/PAfK3Dz248a8obL/PFJP3Tw=
+        </DataArray>
+      </Points>
+      <Cells>
+        <DataArray type='Int32' Name='connectivity' format='binary'>
+wAAAAAAAAAAAAAAACAAAAAwAAAAEAAAABgAAAAsAAAACAAAACgAAAAEAAAAJAAAADQAAAAcAAAAFAAAADwAAAAMAAAAOAAAAEAAAABQAAAAcAAAAGAAAABYAAAAaAAAAEgAAABsAAAARAAAAFwAAAB0AAAAZAAAAFQAAAB4AAAATAAAAHwAAACAAAAAjAAAAJQAAACQAAAAiAAAAJgAAACEAAAAnAAAAKAAAACwAAAAtAAAAKwAAACoAAAAvAAAAKQAAAC4AAAA=
+        </DataArray>
+        <DataArray type='Int32' Name='offsets' format='binary'>
+GAAAAAAAAAAIAAAAEAAAABgAAAAgAAAAKAAAADAAAAA=
+        </DataArray>
+        <DataArray type='UInt8' Name='types' format='binary'>
+BgAAAAAAAAAMDAwMDAw=
+        </DataArray>
+      </Cells>
+      <CellData>
+        <DataArray type='Int32' Name='cellID' format='binary'>
+GAAAAAAAAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAA=
+        </DataArray>
+      </CellData>
+      <PointData>
+      </PointData>
+    </Piece>
+  </UnstructuredGrid>
+</VTKFile>

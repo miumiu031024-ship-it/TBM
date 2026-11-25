@@ -1,0 +1,11 @@
+{
+  "properties_equal": true,
+  "numerical_solution_controls_equal": true,
+  "background_mesh_equal": true,
+  "same_local_resolution_rule": true,
+  "probe_locations_equal": true,
+  "initial_fields_equal": true,
+  "only_existing_geometry_and_its_refinement_surfaces_differ": true,
+  "long_flow_computation_executed": false,
+  "flow_solver_executed": false
+}

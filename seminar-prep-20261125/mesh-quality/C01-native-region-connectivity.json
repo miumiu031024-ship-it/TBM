@@ -1,0 +1,266 @@
+{
+  "model": "C01",
+  "cells": 4997954,
+  "cell_zone_counts": {
+    "Water_Xminus": 1266111,
+    "Water_Center": 2465576,
+    "Water_Xplus": 1266267
+  },
+  "all_cells_in_exactly_one_named_zone": true,
+  "all36_ports_match_CAD_region": true,
+  "ports": [
+    {
+      "patch": "inlet01",
+      "CAD_port": "IN_01",
+      "region": "Water_Xminus",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet02",
+      "CAD_port": "IN_02",
+      "region": "Water_Xminus",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet03",
+      "CAD_port": "IN_03",
+      "region": "Water_Xminus",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet04",
+      "CAD_port": "IN_04",
+      "region": "Water_Xminus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet05",
+      "CAD_port": "IN_05",
+      "region": "Water_Xminus",
+      "native_faces": 148,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet06",
+      "CAD_port": "IN_06",
+      "region": "Water_Xminus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet07",
+      "CAD_port": "IN_07",
+      "region": "Water_Center",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet08",
+      "CAD_port": "IN_08",
+      "region": "Water_Center",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet09",
+      "CAD_port": "IN_09",
+      "region": "Water_Center",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet10",
+      "CAD_port": "IN_10",
+      "region": "Water_Center",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet11",
+      "CAD_port": "IN_11",
+      "region": "Water_Center",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet12",
+      "CAD_port": "IN_12",
+      "region": "Water_Center",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet13",
+      "CAD_port": "IN_13",
+      "region": "Water_Xplus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet14",
+      "CAD_port": "IN_14",
+      "region": "Water_Xplus",
+      "native_faces": 148,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet15",
+      "CAD_port": "IN_15",
+      "region": "Water_Xplus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet16",
+      "CAD_port": "IN_16",
+      "region": "Water_Xplus",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet17",
+      "CAD_port": "IN_17",
+      "region": "Water_Xplus",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "inlet18",
+      "CAD_port": "IN_18",
+      "region": "Water_Xplus",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet01",
+      "CAD_port": "OUT_01",
+      "region": "Water_Xminus",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet02",
+      "CAD_port": "OUT_02",
+      "region": "Water_Xminus",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet03",
+      "CAD_port": "OUT_03",
+      "region": "Water_Xminus",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet04",
+      "CAD_port": "OUT_04",
+      "region": "Water_Xminus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet05",
+      "CAD_port": "OUT_05",
+      "region": "Water_Xminus",
+      "native_faces": 148,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet06",
+      "CAD_port": "OUT_06",
+      "region": "Water_Xminus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet07",
+      "CAD_port": "OUT_07",
+      "region": "Water_Center",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet08",
+      "CAD_port": "OUT_08",
+      "region": "Water_Center",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet09",
+      "CAD_port": "OUT_09",
+      "region": "Water_Center",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet10",
+      "CAD_port": "OUT_10",
+      "region": "Water_Center",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet11",
+      "CAD_port": "OUT_11",
+      "region": "Water_Center",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet12",
+      "CAD_port": "OUT_12",
+      "region": "Water_Center",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet13",
+      "CAD_port": "OUT_13",
+      "region": "Water_Xplus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet14",
+      "CAD_port": "OUT_14",
+      "region": "Water_Xplus",
+      "native_faces": 148,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet15",
+      "CAD_port": "OUT_15",
+      "region": "Water_Xplus",
+      "native_faces": 139,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet16",
+      "CAD_port": "OUT_16",
+      "region": "Water_Xplus",
+      "native_faces": 142,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet17",
+      "CAD_port": "OUT_17",
+      "region": "Water_Xplus",
+      "native_faces": 140,
+      "all_faces_match_expected_region": true
+    },
+    {
+      "patch": "outlet18",
+      "CAD_port": "OUT_18",
+      "region": "Water_Xplus",
+      "native_faces": 144,
+      "all_faces_match_expected_region": true
+    }
+  ],
+  "flow_solver_executed": false
+}

@@ -1,0 +1,554 @@
+[
+  {
+    "model": "B00",
+    "actual_cells": 5037651,
+    "points": 5637436,
+    "regions": 3,
+    "cell_zones": 3,
+    "boundary_patches": 37,
+    "positive_port_patches": 36,
+    "standard_check_passed": true,
+    "additional_check_passed": false,
+    "concave_cells": 68027,
+    "small_determinant_cells": 0,
+    "min_cell_determinant": 0.0048215023,
+    "additional_failed_checks": 1,
+    "max_nonorthogonality_deg": 59.166884,
+    "max_skewness": 3.0217181,
+    "min_cell_volume_m3": 1.9378795e-14,
+    "mesh_volume_m3": 4.2249279e-05,
+    "CAD_volume_mm3": 42266.503783747175,
+    "STL_volume_mm3": 42264.798530857784,
+    "mesh_generation_and_checks_wall_minutes": 25.9,
+    "sampled_container_memory_current_peak_GiB": 8.557182312011719,
+    "cumulative_container_memory_peak_at_end_GiB": 8.928619384765625,
+    "memory_metric": "cgroup memory including cache;5s samples, not sum of process RSS; cumulative peak is whole container since start",
+    "explicit_prism_layers": false,
+    "wall_yplus": "Not available until a flow solution exists",
+    "source_STEP": "B00_baseline_water.step",
+    "source_sha256": "3a2441db330b9844da737732f17a30f84786b96a2d9e901f5270de7dd00a50fc",
+    "flow_solver_executed": false,
+    "native_case_path": "/workspace/scratch/tbm-seminar-prep-20261125/B00",
+    "patch_geometry": {
+      "walls": {
+        "nFaces": 926079,
+        "startFace": 14588538
+      },
+      "inlet01": {
+        "nFaces": 144,
+        "startFace": 15514617
+      },
+      "inlet02": {
+        "nFaces": 140,
+        "startFace": 15514761
+      },
+      "inlet03": {
+        "nFaces": 142,
+        "startFace": 15514901
+      },
+      "inlet04": {
+        "nFaces": 139,
+        "startFace": 15515043
+      },
+      "inlet05": {
+        "nFaces": 148,
+        "startFace": 15515182
+      },
+      "inlet06": {
+        "nFaces": 139,
+        "startFace": 15515330
+      },
+      "inlet07": {
+        "nFaces": 142,
+        "startFace": 15515469
+      },
+      "inlet08": {
+        "nFaces": 140,
+        "startFace": 15515611
+      },
+      "inlet09": {
+        "nFaces": 144,
+        "startFace": 15515751
+      },
+      "inlet10": {
+        "nFaces": 144,
+        "startFace": 15515895
+      },
+      "inlet11": {
+        "nFaces": 140,
+        "startFace": 15516039
+      },
+      "inlet12": {
+        "nFaces": 142,
+        "startFace": 15516179
+      },
+      "inlet13": {
+        "nFaces": 139,
+        "startFace": 15516321
+      },
+      "inlet14": {
+        "nFaces": 148,
+        "startFace": 15516460
+      },
+      "inlet15": {
+        "nFaces": 139,
+        "startFace": 15516608
+      },
+      "inlet16": {
+        "nFaces": 142,
+        "startFace": 15516747
+      },
+      "inlet17": {
+        "nFaces": 140,
+        "startFace": 15516889
+      },
+      "inlet18": {
+        "nFaces": 144,
+        "startFace": 15517029
+      },
+      "outlet01": {
+        "nFaces": 144,
+        "startFace": 15517173
+      },
+      "outlet02": {
+        "nFaces": 140,
+        "startFace": 15517317
+      },
+      "outlet03": {
+        "nFaces": 142,
+        "startFace": 15517457
+      },
+      "outlet04": {
+        "nFaces": 139,
+        "startFace": 15517599
+      },
+      "outlet05": {
+        "nFaces": 148,
+        "startFace": 15517738
+      },
+      "outlet06": {
+        "nFaces": 139,
+        "startFace": 15517886
+      },
+      "outlet07": {
+        "nFaces": 142,
+        "startFace": 15518025
+      },
+      "outlet08": {
+        "nFaces": 140,
+        "startFace": 15518167
+      },
+      "outlet09": {
+        "nFaces": 144,
+        "startFace": 15518307
+      },
+      "outlet10": {
+        "nFaces": 144,
+        "startFace": 15518451
+      },
+      "outlet11": {
+        "nFaces": 140,
+        "startFace": 15518595
+      },
+      "outlet12": {
+        "nFaces": 142,
+        "startFace": 15518735
+      },
+      "outlet13": {
+        "nFaces": 139,
+        "startFace": 15518877
+      },
+      "outlet14": {
+        "nFaces": 148,
+        "startFace": 15519016
+      },
+      "outlet15": {
+        "nFaces": 139,
+        "startFace": 15519164
+      },
+      "outlet16": {
+        "nFaces": 142,
+        "startFace": 15519303
+      },
+      "outlet17": {
+        "nFaces": 140,
+        "startFace": 15519445
+      },
+      "outlet18": {
+        "nFaces": 144,
+        "startFace": 15519585
+      }
+    },
+    "mesh_volume_error_percent": -0.0407527999839008,
+    "concave_cell_fraction_percent": 1.35037143303496,
+    "readiness": "Screening mesh only; additional quality flags require mesh/wall sensitivity before performance validation"
+  },
+  {
+    "model": "C01",
+    "actual_cells": 4997954,
+    "points": 5583747,
+    "regions": 3,
+    "cell_zones": 3,
+    "boundary_patches": 37,
+    "positive_port_patches": 36,
+    "standard_check_passed": true,
+    "additional_check_passed": false,
+    "concave_cells": 71398,
+    "small_determinant_cells": 6,
+    "min_cell_determinant": 4.2420098e-05,
+    "additional_failed_checks": 2,
+    "max_nonorthogonality_deg": 64.999661,
+    "max_skewness": 3.1612367,
+    "min_cell_volume_m3": 1.0009873e-14,
+    "mesh_volume_m3": 4.2249229e-05,
+    "CAD_volume_mm3": 42266.52343024643,
+    "STL_volume_mm3": 42264.80070925529,
+    "mesh_generation_and_checks_wall_minutes": 28.383333333333333,
+    "sampled_container_memory_current_peak_GiB": 9.989513397216797,
+    "cumulative_container_memory_peak_at_end_GiB": 10.520339965820312,
+    "memory_metric": "cgroup memory including cache;5s samples, not sum of process RSS; cumulative peak is whole container since start",
+    "explicit_prism_layers": false,
+    "wall_yplus": "Not available until a flow solution exists",
+    "source_STEP": "C01_partition_yaw_plus1_water.step",
+    "source_sha256": "5dff9f7a55adc06ebf8471f6e496022c8ac8ee9e4856c76036d74ade27637429",
+    "flow_solver_executed": false,
+    "native_case_path": "/workspace/scratch/tbm-seminar-prep-20261125/C01",
+    "patch_geometry": {
+      "walls": {
+        "nFaces": 908422,
+        "startFace": 14474490
+      },
+      "inlet01": {
+        "nFaces": 144,
+        "startFace": 15382912
+      },
+      "inlet02": {
+        "nFaces": 140,
+        "startFace": 15383056
+      },
+      "inlet03": {
+        "nFaces": 142,
+        "startFace": 15383196
+      },
+      "inlet04": {
+        "nFaces": 139,
+        "startFace": 15383338
+      },
+      "inlet05": {
+        "nFaces": 148,
+        "startFace": 15383477
+      },
+      "inlet06": {
+        "nFaces": 139,
+        "startFace": 15383625
+      },
+      "inlet07": {
+        "nFaces": 142,
+        "startFace": 15383764
+      },
+      "inlet08": {
+        "nFaces": 140,
+        "startFace": 15383906
+      },
+      "inlet09": {
+        "nFaces": 144,
+        "startFace": 15384046
+      },
+      "inlet10": {
+        "nFaces": 144,
+        "startFace": 15384190
+      },
+      "inlet11": {
+        "nFaces": 140,
+        "startFace": 15384334
+      },
+      "inlet12": {
+        "nFaces": 142,
+        "startFace": 15384474
+      },
+      "inlet13": {
+        "nFaces": 139,
+        "startFace": 15384616
+      },
+      "inlet14": {
+        "nFaces": 148,
+        "startFace": 15384755
+      },
+      "inlet15": {
+        "nFaces": 139,
+        "startFace": 15384903
+      },
+      "inlet16": {
+        "nFaces": 142,
+        "startFace": 15385042
+      },
+      "inlet17": {
+        "nFaces": 140,
+        "startFace": 15385184
+      },
+      "inlet18": {
+        "nFaces": 144,
+        "startFace": 15385324
+      },
+      "outlet01": {
+        "nFaces": 144,
+        "startFace": 15385468
+      },
+      "outlet02": {
+        "nFaces": 140,
+        "startFace": 15385612
+      },
+      "outlet03": {
+        "nFaces": 142,
+        "startFace": 15385752
+      },
+      "outlet04": {
+        "nFaces": 139,
+        "startFace": 15385894
+      },
+      "outlet05": {
+        "nFaces": 148,
+        "startFace": 15386033
+      },
+      "outlet06": {
+        "nFaces": 139,
+        "startFace": 15386181
+      },
+      "outlet07": {
+        "nFaces": 142,
+        "startFace": 15386320
+      },
+      "outlet08": {
+        "nFaces": 140,
+        "startFace": 15386462
+      },
+      "outlet09": {
+        "nFaces": 144,
+        "startFace": 15386602
+      },
+      "outlet10": {
+        "nFaces": 144,
+        "startFace": 15386746
+      },
+      "outlet11": {
+        "nFaces": 140,
+        "startFace": 15386890
+      },
+      "outlet12": {
+        "nFaces": 142,
+        "startFace": 15387030
+      },
+      "outlet13": {
+        "nFaces": 139,
+        "startFace": 15387172
+      },
+      "outlet14": {
+        "nFaces": 148,
+        "startFace": 15387311
+      },
+      "outlet15": {
+        "nFaces": 139,
+        "startFace": 15387459
+      },
+      "outlet16": {
+        "nFaces": 142,
+        "startFace": 15387598
+      },
+      "outlet17": {
+        "nFaces": 140,
+        "startFace": 15387740
+      },
+      "outlet18": {
+        "nFaces": 144,
+        "startFace": 15387880
+      }
+    },
+    "mesh_volume_error_percent": -0.04091756038315797,
+    "concave_cell_fraction_percent": 1.4285445604341296,
+    "readiness": "Repair under-determined cells and recheck before a comparison pilot; no performance CFD ready claim"
+  },
+  {
+    "model": "C02",
+    "actual_cells": 4997775,
+    "points": 5583585,
+    "regions": 3,
+    "cell_zones": 3,
+    "boundary_patches": 37,
+    "positive_port_patches": 36,
+    "standard_check_passed": true,
+    "additional_check_passed": false,
+    "concave_cells": 71425,
+    "small_determinant_cells": 6,
+    "min_cell_determinant": 4.2420208e-05,
+    "additional_failed_checks": 2,
+    "max_nonorthogonality_deg": 64.999348,
+    "max_skewness": 3.2290273,
+    "min_cell_volume_m3": 1.0009873e-14,
+    "mesh_volume_m3": 4.2249229e-05,
+    "CAD_volume_mm3": 42266.569140104744,
+    "STL_volume_mm3": 42264.80064424074,
+    "mesh_generation_and_checks_wall_minutes": 28.233333333333334,
+    "sampled_container_memory_current_peak_GiB": 11.151355743408203,
+    "cumulative_container_memory_peak_at_end_GiB": 11.260929107666016,
+    "memory_metric": "cgroup memory including cache;5s samples, not sum of process RSS; cumulative peak is whole container since start",
+    "explicit_prism_layers": false,
+    "wall_yplus": "Not available until a flow solution exists",
+    "source_STEP": "C02_partition_yaw_minus1_water.step",
+    "source_sha256": "616a1ae9c5b5662cc8b972166847a7e852df89c5e2a3796466d787a02b1256c8",
+    "flow_solver_executed": false,
+    "native_case_path": "/workspace/scratch/tbm-seminar-prep-20261125/C02",
+    "patch_geometry": {
+      "walls": {
+        "nFaces": 908407,
+        "startFace": 14473982
+      },
+      "inlet01": {
+        "nFaces": 144,
+        "startFace": 15382389
+      },
+      "inlet02": {
+        "nFaces": 140,
+        "startFace": 15382533
+      },
+      "inlet03": {
+        "nFaces": 142,
+        "startFace": 15382673
+      },
+      "inlet04": {
+        "nFaces": 139,
+        "startFace": 15382815
+      },
+      "inlet05": {
+        "nFaces": 148,
+        "startFace": 15382954
+      },
+      "inlet06": {
+        "nFaces": 139,
+        "startFace": 15383102
+      },
+      "inlet07": {
+        "nFaces": 142,
+        "startFace": 15383241
+      },
+      "inlet08": {
+        "nFaces": 140,
+        "startFace": 15383383
+      },
+      "inlet09": {
+        "nFaces": 144,
+        "startFace": 15383523
+      },
+      "inlet10": {
+        "nFaces": 144,
+        "startFace": 15383667
+      },
+      "inlet11": {
+        "nFaces": 140,
+        "startFace": 15383811
+      },
+      "inlet12": {
+        "nFaces": 142,
+        "startFace": 15383951
+      },
+      "inlet13": {
+        "nFaces": 139,
+        "startFace": 15384093
+      },
+      "inlet14": {
+        "nFaces": 148,
+        "startFace": 15384232
+      },
+      "inlet15": {
+        "nFaces": 139,
+        "startFace": 15384380
+      },
+      "inlet16": {
+        "nFaces": 142,
+        "startFace": 15384519
+      },
+      "inlet17": {
+        "nFaces": 140,
+        "startFace": 15384661
+      },
+      "inlet18": {
+        "nFaces": 144,
+        "startFace": 15384801
+      },
+      "outlet01": {
+        "nFaces": 144,
+        "startFace": 15384945
+      },
+      "outlet02": {
+        "nFaces": 140,
+        "startFace": 15385089
+      },
+      "outlet03": {
+        "nFaces": 142,
+        "startFace": 15385229
+      },
+      "outlet04": {
+        "nFaces": 139,
+        "startFace": 15385371
+      },
+      "outlet05": {
+        "nFaces": 148,
+        "startFace": 15385510
+      },
+      "outlet06": {
+        "nFaces": 139,
+        "startFace": 15385658
+      },
+      "outlet07": {
+        "nFaces": 142,
+        "startFace": 15385797
+      },
+      "outlet08": {
+        "nFaces": 140,
+        "startFace": 15385939
+      },
+      "outlet09": {
+        "nFaces": 144,
+        "startFace": 15386079
+      },
+      "outlet10": {
+        "nFaces": 144,
+        "startFace": 15386223
+      },
+      "outlet11": {
+        "nFaces": 140,
+        "startFace": 15386367
+      },
+      "outlet12": {
+        "nFaces": 142,
+        "startFace": 15386507
+      },
+      "outlet13": {
+        "nFaces": 139,
+        "startFace": 15386649
+      },
+      "outlet14": {
+        "nFaces": 148,
+        "startFace": 15386788
+      },
+      "outlet15": {
+        "nFaces": 139,
+        "startFace": 15386936
+      },
+      "outlet16": {
+        "nFaces": 142,
+        "startFace": 15387075
+      },
+      "outlet17": {
+        "nFaces": 140,
+        "startFace": 15387217
+      },
+      "outlet18": {
+        "nFaces": 144,
+        "startFace": 15387357
+      }
+    },
+    "mesh_volume_error_percent": -0.041025662734217594,
+    "concave_cell_fraction_percent": 1.4291359655046496,
+    "readiness": "Repair under-determined cells and recheck before a comparison pilot; no performance CFD ready claim"
+  }
+]

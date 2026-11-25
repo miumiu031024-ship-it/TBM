@@ -1,0 +1,5 @@
+model,log,first_iteration,last_iteration,iterations,wall_clock_s,wall_seconds_per_iteration,MPI_processes,flow_run_is_historical
+B00,a01-cfd-comparison-20261120/B00/log.simpleFoam-warmup,1.0,100.0,100,1058.0,10.58,4,True
+B00,a01-cfd-comparison-20261120/B00/log.simpleFoam,101.0,500.0,400,4383.0,10.9575,4,True
+A01,a01-cfd-comparison-20261120/A01/log.simpleFoam-warmup,1.0,100.0,100,995.0,9.95,4,True
+A01,a01-cfd-comparison-20261120/A01/log.simpleFoam,101.0,500.0,400,4314.0,10.785,4,True

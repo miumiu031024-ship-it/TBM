@@ -1,0 +1,28 @@
+{
+  "source": "Existing STEP files only; no geometry altered",
+  "models": {
+    "B00": "B00_baseline",
+    "B01": "B01_partition_inward_050",
+    "C01": "C01_partition_yaw_plus1",
+    "C02": "C02_partition_yaw_minus1"
+  },
+  "camera": {
+    "elevation_deg": 22,
+    "azimuth_deg": -60,
+    "projection": "orthographic",
+    "xlim_mm": [
+      -51,
+      51
+    ],
+    "ylim_mm": [
+      -51,
+      51
+    ],
+    "zlim_mm": [
+      -12,
+      52
+    ]
+  },
+  "figures_not_CFD": true,
+  "current_experiment_schematic_source": "User description: dome up, bottom tube water/bubble inlet; dimensions and detailed connections not assumed"
+}

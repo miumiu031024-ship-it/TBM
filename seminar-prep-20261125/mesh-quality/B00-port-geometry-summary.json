@@ -1,0 +1,9 @@
+{
+  "model": "B00",
+  "ports": 36,
+  "all_areas_positive": true,
+  "maximum_absolute_area_error_percent": 0.6331309698786591,
+  "maximum_centroid_error_mm": 0.0006067876932028985,
+  "selected_field_arrays": 0,
+  "flow_solver_executed": false
+}

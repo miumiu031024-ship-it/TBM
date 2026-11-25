@@ -1,0 +1,15 @@
+{
+  "flow_solver_executed": false,
+  "first_preflight_failed_before_snappyHexMesh": true,
+  "preflight_reason": "Container lacked /usr/bin/time; used Bash time keyword instead. No snappy or flow solver started in that first invocation.",
+  "all_three_final_mesh_jobs_ended_normally": true,
+  "meshes_kept_in_workspace": true,
+  "volume_meshes_not_in_download_archive": true,
+  "software": {
+    "OpenFOAM": "v2412",
+    "image_sha256": "5c64f40b9d1f439b931f5c2141ee3b9e1c47f0654722aec4eee1136563652cda",
+    "MPI_processes": 4,
+    "memory_limit_GiB": 24
+  },
+  "source_repo_commit_before_work": "5ba4938013c9d0e689740cbd497181a2b79b4d60"
+}

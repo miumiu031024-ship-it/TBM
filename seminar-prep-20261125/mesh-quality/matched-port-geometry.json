@@ -1,0 +1,14 @@
+[
+  {
+    "model": "C01",
+    "reference": "B00",
+    "maximum_absolute_native_port_area_difference_percent": 0.0,
+    "ports_with_different_face_counts": 0
+  },
+  {
+    "model": "C02",
+    "reference": "B00",
+    "maximum_absolute_native_port_area_difference_percent": 0.0,
+    "ports_with_different_face_counts": 0
+  }
+]

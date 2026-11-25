@@ -1,0 +1,90 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _45e7c4a0-20241224 OPENFOAM=2412 version=2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : surfaceCheck constant/triSurface/volume.stl
+Date   : Nov 25 2026
+Time   : 05:49:16
+Host   : cc13b3094a4d
+PID    : 1918
+I/O    : uncollated
+Case   : /work/C01
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Reading surface from "constant/triSurface/volume.stl" ...
+
+Statistics:
+Triangles    : 488816 in 1 region(s)
+Vertices     : 244414
+Bounding Box : (-0.0479 -0.0479 -0.01) (0.0479 0.0479 0.0479)
+
+Index	Region	Size
+-----	------	----
+0	volume	488816
+
+
+Surface has no illegal triangles.
+
+Triangle quality (equilateral=1, collapsed=0):
+    0 .. 0.05  : 0.0464306
+    0.05 .. 0.1  : 0.0272066
+    0.1 .. 0.15  : 0.0216912
+    0.15 .. 0.2  : 0.0261059
+    0.2 .. 0.25  : 0.0219551
+    0.25 .. 0.3  : 0.023829
+    0.3 .. 0.35  : 0.0234505
+    0.35 .. 0.4  : 0.0234239
+    0.4 .. 0.45  : 0.0237574
+    0.45 .. 0.5  : 0.0238454
+    0.5 .. 0.55  : 0.0294855
+    0.55 .. 0.6  : 0.0297331
+    0.6 .. 0.65  : 0.0328958
+    0.65 .. 0.7  : 0.0323639
+    0.7 .. 0.75  : 0.0343463
+    0.75 .. 0.8  : 0.0432453
+    0.8 .. 0.85  : 0.0531836
+    0.85 .. 0.9  : 0.0706749
+    0.9 .. 0.95  : 0.115465
+    0.95 .. 1  : 0.296911
+
+    min 1.4132e-06 for triangle 390276
+    max 0.999993 for triangle 391183
+
+Edges:
+    min 1.45475e-06 for edge 142121 points (-0.0227 -2.90896e-06 0.0421796)(-0.0227 -4.36343e-06 0.0421796)
+    max 0.0100003 for edge 134547 points (-0.0255925 -0.0369101 0)(-0.0256498 -0.0368596 -0.01)
+
+Checking for points less than 1e-6 of bounding box ((0.0958 0.0958 0.0579) metre) apart.
+Found 0 nearby points.
+
+Surface is closed. All edges connected to two faces.
+
+Number of unconnected parts : 3
+Splitting surface into parts ...
+
+Wrote zoning to "constant/triSurface/volume.vtp"
+
+writing part 0 size 93594 to "constant/triSurface/volume_0.obj"
+writing part 1 size 301636 to "constant/triSurface/volume_1.obj"
+writing part 2 size 93586 to "constant/triSurface/volume_2.obj"
+
+Number of zones (connected area with consistent normal) : 3
+More than one normal orientation.
+Wrote zoning to "constant/triSurface/volume.vtp"
+
+writing part 0 size 93594 to "constant/triSurface/volume_normal_0.obj"
+writing part 1 size 301636 to "constant/triSurface/volume_normal_1.obj"
+writing part 2 size 93586 to "constant/triSurface/volume_normal_2.obj"
+
+
+End
+
