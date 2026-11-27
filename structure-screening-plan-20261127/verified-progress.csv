@@ -1,0 +1,4 @@
+model,native_case,CAD_available,mesh_available,cells,small_determinant_cells,min_determinant,concave_cells,standard_mesh_pass,all_geometry_pass,completed_iterations,saved_complete_field_count,solver_wall_minutes,sampled_solver_sum_RSS_GiB,converged,performance_improvement_validated
+B00,/workspace/scratch/tbm-mesh-repair-20261125/B00_R07,True,True,5037651,0,0.0048215023,68027,True,False,20,6,7.405483333333334,8.086284637451172,False,False
+C01,/workspace/scratch/tbm-mesh-repair-20261125/C01_R07,True,True,4997954,0,0.0011,71398,True,False,20,6,7.4419,8.02407455444336,False,False
+C02,/workspace/scratch/tbm-mesh-repair-20261125/C02_R07,True,True,4997775,0,0.0011,71425,True,False,20,6,9.456566666666667,8.035472869873047,False,False

@@ -1,0 +1,4 @@
+model,recent_seconds_per_iteration,estimated_restart_overhead_seconds,continue20_to50_minutes,continue20_to100_minutes,continue20_to200_minutes,note
+B00,18.5,61.82900000000001,10.280483333333333,25.69715,56.530483333333336,"Solver-only projection; add 2–5 min per launch/checkpoint for decomposition, reconstruction and storage. Budget +/-50%."
+C01,18.0,55.51400000000001,9.925233333333333,24.925233333333335,54.92523333333334,"Solver-only projection; add 2–5 min per launch/checkpoint for decomposition, reconstruction and storage. Budget +/-50%."
+C02,25.5,50.894000000000005,13.598233333333333,34.84823333333334,77.34823333333334,"Solver-only projection; add 2–5 min per launch/checkpoint for decomposition, reconstruction and storage. Budget +/-50%."

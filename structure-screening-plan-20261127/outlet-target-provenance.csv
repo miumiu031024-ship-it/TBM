@@ -1,0 +1,5 @@
+native_patch,CAD_port,x_mm,y_mm,z_mm,B00_R07_iteration20_g_s,old_B00_iteration500_g_s,warning
+outlet01,OUT_01,-46.223433991457,4.04402646349136,-10.0,13.949736765789995,11.614966329825252,Different meshes and solver histories; not a controlled iteration study or a STAR port registration. Both unconverged.
+outlet06,OUT_06,-26.613946646688497,38.0086548550092,-10.0,12.141227488785894,13.137461236526956,Different meshes and solver histories; not a controlled iteration study or a STAR port registration. Both unconverged.
+outlet13,OUT_13,26.613946646688504,38.0086548550092,-10.0,12.125282741380287,13.127454000934403,Different meshes and solver histories; not a controlled iteration study or a STAR port registration. Both unconverged.
+outlet18,OUT_18,46.223433991457,4.04402646349134,-10.0,13.94651705790547,11.661481590521133,Different meshes and solver histories; not a controlled iteration study or a STAR port registration. Both unconverged.

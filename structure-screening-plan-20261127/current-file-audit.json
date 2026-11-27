@@ -1,0 +1,38 @@
+{
+  "date_JST": "2026-11-27",
+  "native_checks": [
+    {
+      "model": "B00",
+      "native_mesh_files_compared_to_published_manifest": 8,
+      "native_mesh_hash_mismatches": [],
+      "checkpoint_fields_compared_to_published_manifest": 6,
+      "checkpoint_hash_mismatches": [],
+      "log_contains_exactly_iterations1_to20": true,
+      "log_normal_end": true,
+      "checkpoints_above20_found": false
+    },
+    {
+      "model": "C01",
+      "native_mesh_files_compared_to_published_manifest": 8,
+      "native_mesh_hash_mismatches": [],
+      "checkpoint_fields_compared_to_published_manifest": 6,
+      "checkpoint_hash_mismatches": [],
+      "log_contains_exactly_iterations1_to20": true,
+      "log_normal_end": true,
+      "checkpoints_above20_found": false
+    },
+    {
+      "model": "C02",
+      "native_mesh_files_compared_to_published_manifest": 8,
+      "native_mesh_hash_mismatches": [],
+      "checkpoint_fields_compared_to_published_manifest": 6,
+      "checkpoint_hash_mismatches": [],
+      "log_contains_exactly_iterations1_to20": true,
+      "log_normal_end": true,
+      "checkpoints_above20_found": false
+    }
+  ],
+  "hash_reference": "25-Nov published native-mesh-sha256.json and startup-summary.json; 24 native mesh file hashes and18 checkpoint field hashes matched in this read-only audit",
+  "earlier_1354_file_preservation_check_date": "2026-11-25, not rerun in full this task",
+  "new_flow_or_CAD_executed": false
+}

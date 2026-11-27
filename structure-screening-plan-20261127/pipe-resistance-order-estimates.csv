@@ -1,0 +1,4 @@
+diameter_mm,nominal_mass_kg_s,velocity_m_s,Re,Darcy_f_Blasius,dynamic_pressure_Pa,friction_10mm_Pa,friction_20mm_Pa,model
+2.8,0.012777777777778,2.780952595070519,62823.88773827748,0.019985051545337904,2885.4461723988843,205.94925173817737,411.89850347635473,rough smooth fully-developed turbulent estimate; L/D small; entrance/local losses NOT included; NOT CFD result
+3.0,0.012777777777778,2.422518705039207,58635.628555725634,0.02033274802088965,2189.5762994345773,148.40034389638427,296.80068779276854,rough smooth fully-developed turbulent estimate; L/D small; entrance/local losses NOT included; NOT CFD result
+3.2,0.012777777777778,2.129166830600866,54970.901770992794,0.020663470258779917,1691.3955712719044,109.21906900877832,218.43813801755664,rough smooth fully-developed turbulent estimate; L/D small; entrance/local losses NOT included; NOT CFD result

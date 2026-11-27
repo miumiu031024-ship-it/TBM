@@ -1,0 +1,10 @@
+case,region,total_mass_kg_s,exact_rational,changed_inlet_count
+B00,Water_Xminus,0.076666666666667,23/300,0
+B00,Water_Center,0.076666666666667,23/300,0
+B00,Water_Xplus,0.076666666666667,23/300,0
+I01_outer_plus10,Water_Xminus,0.076666666666667,23/300,2
+I01_outer_plus10,Water_Center,0.076666666666667,23/300,0
+I01_outer_plus10,Water_Xplus,0.076666666666667,23/300,0
+I02_outer_minus10,Water_Xminus,0.076666666666667,23/300,2
+I02_outer_minus10,Water_Center,0.076666666666667,23/300,0
+I02_outer_minus10,Water_Xplus,0.076666666666667,23/300,0

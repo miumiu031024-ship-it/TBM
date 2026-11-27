@@ -1,0 +1,12 @@
+{
+  "report_date_JST": "2026-11-27",
+  "CFD_executed_this_task": false,
+  "CAD_changed_this_task": false,
+  "mesh_generated_this_task": false,
+  "solver_case_created_this_task": false,
+  "only_new_planning_documents_created": true,
+  "large_computation_requires_user_plan_confirmation": true,
+  "native_existing_paths_unchanged": true,
+  "available_disk_GiB_at_audit": 2.6,
+  "approval_scope": "No new CFD or CAD authorized by this document; planning review only."
+}
